@@ -1,24 +1,15 @@
+import Navbar from "./Navbar";
+import { Carouse } from "./Carousel";
+import MegaMenu from "./MegaMenu";
 
-import Navbar from './Navbar';
-import {Carouse} from './Carousel';
-import MegaMenu from './MegaMenu';
-
-
-function Realme(){
-return (
+function Realme() {
+  return (
     <>
-    
-    <MegaMenu/>
-      <Navbar/>
-     
-     <Carouse/>
-          
-    
+      <MegaMenu />
+      <Navbar />
+      <Carouse />
     </>
-)
-
-
-
+  );
 }
 
 export default Realme;
