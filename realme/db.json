@@ -1,0 +1,506 @@
+{
+    "goneInFlash" : [
+        {
+      "title" : "realme Hair Dryer (White)",
+      "color" : ["White"],
+      "price" : 1799,
+      "quantity" : 1,
+      "Configuration" : [],
+      "imgOne" : "https://image01.realme.net/general/20210624/1624541450977.png",
+      "imgTwo" : "https://image01.realme.net/general/20210624/1624541462630.png",
+      "imgThrid" : "https://image01.realme.net/general/20210624/1624541471353.png",
+      "imgFourth" : "https://image01.realme.net/general/20210624/1624541477696.png"
+        },
+             {
+      "title" : "realme Buds Wireless 2 Neo (Green)",
+      "color" : ["Blue", "Black", "Green"],
+      "price" : 1299,
+      "quantity" : 1,
+    "Configuration" : [],
+      "imgOne" : "https://image01.realme.net/general/20210715/1626360050747.png",
+      "imgTwo" : "https://image01.realme.net/general/20210715/1626360056115.png",
+      "imgThrid" : "https://image01.realme.net/general/20210715/1626360061187.png",
+      "imgFourth" : "https://image01.realme.net/general/20210715/1626360066702.png"
+        },
+        
+                 {
+      "title" : "realme Pocket Bluetooth Speaker - 3W (Desert Grey)",
+      "color" : ["Classic Black", "Desert Grey"],
+      "price" : 699,
+      "quantity" : 1,
+       "Configuration" : ["3W"],
+      "imgOne" : "https://image01.realme.net/general/20210903/1630653224609.png",
+      "imgTwo" : "https://image01.realme.net/general/20210903/1630653243101.png",
+      "imgThrid" : "https://image01.realme.net/general/20210903/1630653239044.png",
+      "imgFourth" : "https://image01.realme.net/general/20210903/1630653234971.png"
+        },
+
+                 {
+      "title" : "realme M1 Regular Electric Toothbrush Head(Blue)",
+      "color" : ["Blue", "White"],
+      "price" : 399,
+      "quantity" : "",
+       "Configuration" : ["Regular Electric Toothbrush Head", "Sensitive Electric Toothbrush Head"],
+      "imgOne" : "https://image01.realme.net/general/20210125/1611568002181.jpg",
+      "imgTwo" : "",
+      "imgThrid" : "",
+      "imgFourth" : ""
+        },
+
+                 {
+      "title" : "realme Beard Trimmer (Black)",
+      "color" : ["Black"],
+      "price" : 1099,
+      "quantity" : "1",
+      "Configuration" : [],
+      "imgOne" : "https://image01.realme.net/general/20211102/1635833976955.png",
+      "imgTwo" : "https://image01.realme.net/general/20211102/1635833980525.png",
+      "imgThrid" : "https://image01.realme.net/general/20211102/1635833984175.png",
+      "imgFourth" : "https://image01.realme.net/general/20211102/1635833990822.png"
+        },
+
+                 {
+      "title" : "realme Smart TV Full HD 80cm(32)(Black)",
+      "color" : ["Black"],
+      "price" : 17999,
+      "quantity" : 1,
+      "Configuration" : ["80cm(32)"],
+      "imgOne" : "https://image01.realme.net/general/20210624/1624526397083.png",
+      "imgTwo" : "https://image01.realme.net/general/20210624/1624526402152.png",
+      "imgThrid" : "https://image01.realme.net/general/20210624/1624526406406.png",
+      "imgFourth" : "https://image01.realme.net/general/20210624/1624526411351.png"
+        },
+
+                 {
+      "title" : "realme Buds Air 2 (Closer Black)",
+      "color" : ["Closer Green", "Closer Black", "Closer Gold", "Closer White"],
+      "price" :2999,
+      "quantity" : 1,
+       "Configuration" : [],
+      "imgOne" : "https://image01.realme.net/general/20210223/1614057795145.png",
+      "imgTwo" : "https://image01.realme.net/general/20210223/1614057799150.png",
+      "imgThrid" : "https://image01.realme.net/general/20210223/1614057802813.png",
+      "imgFourth" : "https://image01.realme.net/general/20210223/1614057806950.png"
+        },
+
+                 {
+      "title" : "realme TechLife Air Purifier (White)",
+      "color" : ["White"],
+      "price" : 7499,
+      "quantity" : 1,
+       "Configuration" : [],
+      "imgOne" : "https://image01.realme.net/general/20210927/1632727127886.png",
+      "imgTwo" : "https://image01.realme.net/general/20210927/1632727135460.png",
+      "imgThrid" : "https://image01.realme.net/general/20210927/1632727138710.png",
+      "imgFourth" : "https://image01.realme.net/general/20210927/1632727142097.png"
+        },
+
+                 {
+      "title" : "realme Band 2 (Black)",
+      "color" : ["Black"],
+      "price" : 2199,
+      "quantity" : 1,
+     "Configuration" : [],
+      "imgOne" : "https://image01.realme.net/general/20210916/1631776028421.png",
+      "imgTwo" : "https://image01.realme.net/general/20210916/1631776032449.png",
+      "imgThrid" : "https://image01.realme.net/general/20210916/1631776036289.png",
+      "imgFourth" : "https://image01.realme.net/general/20210916/1631776039748.png"
+        },
+
+                 {
+      "title" : "realme Smart TV 80cm (32”)",
+      "color" : "Black",
+      "price" : 15999,
+      "quantity" : 1,
+            "Configuration" :"80cm (32)",
+      "imgOne" : "https://image01.realme.net/general/20210416/1618549295307.jpg",
+      "imgTwo" : "https://image01.realme.net/general/20200630/1593487442773.jpg",
+      "imgThrid" : "https://image01.realme.net/general/20200630/1593487448548.jpg",
+      "imgFourth" : "https://image01.realme.net/general/20200526/1590478440703.jpg"
+        },
+
+                 {
+      "title" : "realme N1 Sonic Electric Toothbrush (White)",
+      "color" : ["Blue"],
+      "price" : 599,
+      "quantity" : 1,
+       "Configuration" : ["80cm (32)","108cm (43)"],
+      "imgOne" : "https://image01.realme.net/general/20201005/1601880948577.jpg",
+      "imgTwo" : "https://image01.realme.net/general/20201005/1601880952160.jpg",
+      "imgThrid" : "https://image01.realme.net/general/20201005/1601880955483.jpg",
+      "imgFourth" : "https://image01.realme.net/general/20201005/1601880959145.jpg"
+        },
+
+                 {
+      "title" : "realme N1 Electric Toothbrush Head (White)",
+      "color" : ["Blue", "White"],
+      "price" : 199,
+      "quantity" : 1,
+      "Configuration" : [],
+      "imgOne" : "https://image01.realme.net/general/20210120/1611119357024.jpg",
+      "imgTwo" : "https://image01.realme.net/general/20210120/1611119369137.jpg",
+      "imgThrid" : "",
+      "imgFourth" : ""
+        },
+
+                 {
+      "title" : "realme Watch 2 Pro (Metallic Silver)",
+      "color" : ["Space Grey", "Metallic Silver"],
+      "price" : 4499,
+      "quantity" : 1,
+      "Configuration" : [],
+      "imgOne" : "https://image01.realme.net/general/20211110/1636519103831.jpg",
+      "imgTwo" : "https://image01.realme.net/general/20210715/1626361672168.png",
+      "imgThrid" : "https://image01.realme.net/general/20210715/1626361696464.png",
+      "imgFourth" : "https://image01.realme.net/general/20210715/1626361707902.png"
+        },
+
+                 {
+      "title" : "realme Brick Bluetooth Speaker (Black)",
+      "color" : ["Black"],
+      "price" : 2499,
+      "quantity" : "",
+      "Configuration" : ["20W"],
+      "imgOne" : "https://image01.realme.net/general/20211013/1634115819837.jpg",
+      "imgTwo" : "https://image01.realme.net/general/20211011/1633932676027.png",
+      "imgThrid" : "https://image01.realme.net/general/20211011/1633932681681.png",
+      "imgFourth" : "https://image01.realme.net/general/20211011/1633932689049.png"
+        },
+
+                 {
+      "title" : "realme 10000mAh Power Bank 2 (Black)",
+      "color" : ["BLACK", "YELLOW"],
+      "price" : 1099,
+      "quantity" : 1,
+      "Configuration" : [],
+      "imgOne" : "https://image01.realme.net/general/20200514/1589437407116.jpg",
+      "imgTwo" : "https://image01.realme.net/general/20200514/1589437411547.jpg",
+      "imgThrid" : "https://image01.realme.net/general/20200514/1589437414874.jpg",
+      "imgFourth" : "https://image01.realme.net/general/20200514/1589437418911.jpg"
+        },
+
+                 {
+      "title" : "realme Buds Air Pro (Soul White)",
+      "color" : ["Soul White", "Matte Black", "New Wave Silver", "Rock Black"],
+      "price" : 4499,
+      "quantity" : 1,
+     "Configuration" : [],
+      "imgOne" : "https://image01.realme.net/general/20201005/1601906096530.jpg",
+      "imgTwo" : "https://image01.realme.net/general/20201005/1601906101448.jpg",
+      "imgThrid" : "https://image01.realme.net/general/20201005/1601906106141.jpg",
+      "imgFourth" : "https://image01.realme.net/general/20201005/1601906110569.jpg"
+        },
+
+                 {
+      "title" : "realme Smart Scale (White)",
+      "color" : ["White", "Blue"],
+      "price" : 1499,
+      "quantity" : 1,
+      "Configuration" : [],
+      "imgOne" : "https://image01.realme.net/general/20210316/1615880216900.jpg",
+      "imgTwo" : "https://image01.realme.net/general/20210316/1615880221400.jpg",
+      "imgThrid" : "https://image01.realme.net/general/20210316/1615880225360.jpg",
+      "imgFourth" : "https://image01.realme.net/general/20210316/1615880230515.jpg"
+        },
+
+                 {
+      "title" : "realme Buds Q2 Neo (Black)",
+      "color" : ["Black", "Blue"],
+      "price" : 1399,
+      "quantity" : 1,
+      "Configuration" : [],
+      "imgOne" : "https://image01.realme.net/general/20211110/1636519037536.jpg",
+      "imgTwo" : "https://image01.realme.net/general/20210720/1626772711202.png",
+      "imgThrid" : "https://image01.realme.net/general/20210720/1626772716453.png",
+      "imgFourth" : "https://image01.realme.net/general/20210720/1626772725750.png"
+        },
+
+                 {
+      "title" : "realme Smart TV Stick",
+      "color" : ["Black"],
+      "price" : 3499,
+      "quantity" : 1,
+      "Configuration" : [],
+      "imgOne" : "https://image01.realme.net/general/20211201/1638346373432.jpg",
+      "imgTwo" : "https://image01.realme.net/general/20210917/1631863200565.png",
+      "imgThrid" : "https://image01.realme.net/general/20210917/1631863210923.png",
+      "imgFourth" : "https://image01.realme.net/general/20210917/1631863215805.png"
+        },
+
+                 {
+      "title" : "realme LED Smart Bulb (Grey) 9W",
+      "color" : ["Grey"],
+      "price" : 699,
+      "quantity" : 1,
+     "Configuration" : ["9W", "12W"],
+      "imgOne" : "https://image01.realme.net/general/20210316/1615905316247.jpg",
+      "imgTwo" : "https://image01.realme.net/general/20210316/1615905320493.jpg",
+      "imgThrid" : "",
+      "imgFourth" : ""
+        }
+    ],
+
+"phones" : [
+        {
+"title" : "realme C21Y (Cross Black, 3GB+32GB)",
+"price" :  9499,
+"description" : "",
+"color" : ["Cross Black", "Cross Blue"],
+"quantity" : 1,
+"Configuration" : ["3GB+32GB", "4GB+64GB"],
+"imgOne" : "https://image01.realme.net/general/20210823/1629710687411.jpg",
+"imgTwo" : "https://image01.realme.net/general/20210803/1627970493729.png",
+"imgThrid" : "https://image01.realme.net/general/20210803/1627970501173.png",
+"imgFourth" : "https://image01.realme.net/general/20210803/1627970505935.png"    
+        },
+                {
+"title" : "realme C25s (Watery Blue 4GB+128GB)",
+"price" : 11999,
+"description" : "",
+"color" : ["Watery Blue", "Watery Grey"],
+"quantity" : 1,
+"Configuration" : ["4GB+128GB", "4GB+64GB"],
+"imgOne" : "https://image01.realme.net/general/20210609/1623234850612.jpeg",
+"imgTwo" : "https://image01.realme.net/general/20210519/1621423781061.png",
+"imgThrid" : "https://image01.realme.net/general/20210519/1621423786801.png",
+"imgFourth" : "https://image01.realme.net/general/20210519/1621423803461.png"    
+        },
+                {
+"title" : "realme C25Y (Glacier Blue, 4GB+128GB)",
+"price" :  11999,
+"description" : "",
+"color" : ["Glacier Blue", "Metal Grey"],
+"quantity" : 1,
+"Configuration" : ["4GB+128GB", "4GB+64GB"],
+"imgOne" : "https://image01.realme.net/general/20210913/1631506702085.png",
+"imgTwo" : "https://image01.realme.net/general/20210913/1631506706575.png",
+"imgThrid" : "https://image01.realme.net/general/20210913/1631506710669.png",
+"imgFourth" : "https://image01.realme.net/general/20210913/1631506715139.png"    
+        },
+                {
+"title" : "realme narzo 50A (Oxygen Blue, 4GB+128GB)",
+"price" : 12499,
+"description" : "",
+"color" : ["Oxygen Blue", "Oxygen Green"],
+"quantity" : 1,
+"Configuration" : ["4GB+128GB", "4GB+64GB"],
+"imgOne" : "https://image01.realme.net/general/20210916/1631776707007.png",
+"imgTwo" : "https://image01.realme.net/general/20210916/1631776710823.png",
+"imgThrid" : "https://image01.realme.net/general/20210916/1631776713831.png",
+"imgFourth" : "https://image01.realme.net/general/20210916/1631776717480.png"    
+        },
+
+                {
+"title" : "realme 8i (Space Black, 4GB+64GB)",
+"price" : 13999,
+"description" : "",
+"color" :[ "Space Black", "Space Purple"],
+"quantity" : 1,
+"Configuration" : ["4GB+64GB", "6GB+128GB"],
+"imgOne" : "https://image01.realme.net/general/20210909/1631183100949.jpg",
+"imgTwo" : "https://image01.realme.net/general/20210903/1630653680914.png",
+"imgThrid" : "https://image01.realme.net/general/20210903/1630653684911.png",
+"imgFourth" : "https://image01.realme.net/general/20210903/1630653690098.png"    
+        },
+
+                {
+"title" : "realme narzo 30 (Racing Blue, 4GB+64GB)",
+"price" : 13499,
+"description" : "",
+"color" : ["Racing Blue", "Racing Silver"],
+"quantity" : 1,
+"Configuration" : ["4GB+64GB", "6GB+64GB", "6GB+128GB"],
+"imgOne" : "https://image01.realme.net/general/20210624/1624508808876.jpg",
+"imgTwo" : "https://image01.realme.net/general/20210611/1623400675833.png",
+"imgThrid" : "https://image01.realme.net/general/20210611/1623400680198.png",
+"imgFourth" : "https://image01.realme.net/general/20210611/1623400683469.png"    
+        },
+
+                {
+"title" : "realme 8 (Cyber Black,4GB+128GB)",
+"price" : 15999,
+"description" : "",
+"color" : ["Cyber Black", "Cyber Silver"],
+"quantity" : 1,
+"Configuration" : ["4GB+128GB", "6GB+128GB", "8GB+128GB"],
+"imgOne" : "https://image01.realme.net/general/20210416/1618547266995.jpg",
+"imgTwo" : "https://image01.realme.net/general/20210323/1616485282573.png",
+"imgThrid" : "https://image01.realme.net/general/20210323/1616485286381.png",
+"imgFourth" : "https://image01.realme.net/general/20210323/1616485289393.png"    
+        },
+
+                {
+"title" : "realme 8 5G (Supersonic Blue,4GB+128GB)",
+"price" : 15499,
+"description" : "",
+"color" : ["Supersonic Black", "Supersonic Blue"],
+"quantity" : 1,
+"Configuration" : ["4GB+64GB", "4GB+128GB", "8GB+128GB"],
+"imgOne" : "https://image01.realme.net/general/20210422/1619083790091.jpg",
+"imgTwo" : "https://image01.realme.net/general/20210506/1620287407432.png",
+"imgThrid" : "https://image01.realme.net/general/20210506/1620287412450.png",
+"imgFourth" : "https://image01.realme.net/general/20210506/1620287415972.png"    
+        }
+    ],
+
+
+
+
+ "onlyHere" :[
+ {
+"title" : "realme Micro-USB Cable (Black and Yellow)",
+"price" : 249,
+"description" : "",
+"color" : ["Black and Yellow", "White"],
+"quantity" : 1,
+"Configuration" : [],
+"imgOne" : "https://image01.realme.net/general/20211011/1633945848301.png",
+"imgTwo" : "https://image01.realme.net/general/20211011/1633945852991.png",
+"imgThrid" : "https://image01.realme.net/general/20211011/1633945837036.png",
+"imgFourth" : "https://image01.realme.net/general/20211011/1633945843679.png"    
+        },
+
+                {
+"title" : "realme Buds Air 2 Iconic Cover (Yellow)",
+"price" : 399,
+"description" : "",
+"color" : ["Yellow"],
+"quantity" : 1,
+"Configuration" : [],
+"imgOne" : "https://image01.realme.net/general/20211022/1634885772461.png",
+"imgTwo" : "https://image01.realme.net/general/20211022/1634885775845.png",
+"imgThrid" : "https://image01.realme.net/general/20211022/1634885778923.png",
+"imgFourth" : "https://image01.realme.net/general/20211022/1634885782132.png"    
+        },
+
+                {
+"title" : "realme Mobile Game Controller (Left) (Black)",
+"price" :  999,
+"description" : "",
+"color" : ["Black"],
+"quantity" : 1,
+"Configuration" : ["Left", "Right"],
+"imgOne" : "https://image01.realme.net/general/20210223/1614057007991.png",
+"imgTwo" : "https://image01.realme.net/general/20210223/1614057013356.png",
+"imgThrid" : "https://image01.realme.net/general/20210223/1614057018484.png",
+"imgFourth" : "https://image01.realme.net/general/20210223/1614057023407.png"    
+        },
+
+                {
+"title" : "realme & GRAFFLEX T-shirt Black (L)",
+"price" : 999,
+"description" : "",
+"color" : ["Black", "White"],
+"quantity" : 1,
+"Configuration" : ["XL", "L", "M"],
+"imgOne" : "https://image01.realme.net/general/20201223/1608695991607.jpg",
+"imgTwo" : "https://image01.realme.net/general/20201223/1608695995504.jpg",
+"imgThrid" : "https://image01.realme.net/general/20201223/1608695999124.jpg",
+"imgFourth" : "https://image01.realme.net/general/20201223/1608696002897.jpg"    
+        },
+
+                {
+"title" : "realmeow Cap Black",
+"price" : 999,
+"description" : "",
+"color" : ["Black"],
+"quantity" : 1,
+"Configuration" : [],
+"imgOne" : "https://image01.realme.net/general/20210223/1614059229445.png",
+"imgTwo" : "https://image01.realme.net/general/20210223/1614059233315.png",
+"imgThrid" : "https://image01.realme.net/general/20210223/1614059236889.png",
+"imgFourth" : "https://image01.realme.net/general/20210223/1614059240758.png"    
+        },
+
+                {
+"title" : "realmeow T-shirt Black (L)",
+"price" : 999,
+"description" : "",
+"color" : ["Black", "White"],
+"quantity" : 1,
+"Configuration" : ["XL", "L", "M"],
+"imgOne" : "https://image01.realme.net/general/20210223/1614063237784.jpg",
+"imgTwo" : "https://image01.realme.net/general/20210223/1614063241281.jpg",
+"imgThrid" : "https://image01.realme.net/general/20210223/1614063245068.jpg",
+"imgFourth" : "https://image01.realme.net/general/20210223/1614063248725.jpg"    
+        },
+
+                {
+"title" : "realme Adventurer Backpack (Gray)",
+"price" : 1499,
+"description" : "",
+"color" : ["GRAY"],
+"quantity" : 1,
+"Configuration" : [],
+"imgOne" : "https://image01.realme.net/general/20210825/1629883332271.jpg",
+"imgTwo" : "https://image01.realme.net/general/20210825/1629883337923.jpg",
+"imgThrid" : "https://image01.realme.net/general/20210825/1629883342018.jpg",
+"imgFourth" : "https://image01.realme.net/general/20210825/1629883345554.jpg"    
+        },
+
+                {
+"title" : "realme Tote Bag 2 (White)",
+"price" :  999,
+"description" : "",
+"color" : ["Black", "White"],
+"quantity" : 1,
+"Configuration" : [],
+"imgOne" : "https://image01.realme.net/general/20200825/1598343953637.jpg",
+"imgTwo" : "https://image01.realme.net/general/20200825/1598343958971.jpg",
+"imgThrid" : "https://image01.realme.net/general/20200825/1598343963590.jpg",
+"imgFourth" : "https://image01.realme.net/general/20200825/1598343968292.jpg"    
+        },
+
+                {
+"title" : "realme T-shirt (L)",
+"price" : 999,
+"description" : "",
+"color" : ["White"],
+"Configuration" : [],
+"quantity" : 1,
+"imgOne" : "https://image01.realme.net/general/20200817/1597675424246.jpg",
+"imgTwo" : "https://image01.realme.net/general/20200817/1597675430067.jpg",
+"imgThrid" : "https://image01.realme.net/general/20200817/1597675435052.jpg",
+"imgFourth" : ""    
+        },
+
+                {
+"title" : "realme Tech Backpack",
+"price" :  2399,
+"description" : "",
+"color" : ["GREY"],
+"quantity" : 1,
+"Configuration" : [],
+"imgOne" : "https://image01.realme.net/general/20190105/1546660465921.jpg",
+"imgTwo" : "https://image01.realme.net/general/20190105/1546660469149.jpg",
+"imgThrid" : "https://image01.realme.net/general/20190105/1546660474588.jpg",
+"imgFourth" : "https://image01.realme.net/general/20190105/1546660474588.jpg"    
+        },
+
+                {
+"title" : "realme Mobile Game Finger Sleeves",
+"price" : 129,
+"description" : "",
+"color" :[ "Black"],
+"quantity" : 1,
+"Configuration" : [],
+"imgOne" : "https://image01.realme.net/general/20210305/1614914931022.png",
+"imgTwo" : "https://image01.realme.net/general/20210305/1614914937088.jpg",
+"imgThrid" : "https://image01.realme.net/general/20210305/1614914943113.jpg",
+"imgFourth" : "https://image01.realme.net/general/20210305/1614914947950.jpg"    
+        },
+
+                {
+"title" : "realme Watch S (Silver)",
+"price" : 4599,
+"description" : "",
+"color" : ["Silver"],
+"quantity" : 1,
+"Configuration" : [],
+"imgOne" : "https://image01.realme.net/general/20210604/1622779348754.png",
+"imgTwo" : "https://image01.realme.net/general/20210604/1622779355361.png",
+"imgThrid" : "https://image01.realme.net/general/20210604/1622779363015.png",
+"imgFourth" : "https://image01.realme.net/general/20210604/1622779368270.png"    
+        }
+    ]
+}
