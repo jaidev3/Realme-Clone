@@ -1,9 +1,5 @@
 import React from "react";
-import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
-import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
-import ShieldIcon from "@mui/icons-material/Shield";
-import DvrIcon from "@mui/icons-material/Dvr";
-import HeadsetMicIcon from "@mui/icons-material/HeadsetMic";
+
 import styled from "styled-components";
 
 const Center = styled.div`
@@ -101,20 +97,16 @@ export default function footer() {
           <TopContainer>
             <Flex>
               <TopItem>
-                <AddShoppingCartIcon />
                 <p>Free Shipping</p>
               </TopItem>
 
               <TopItem>
-                <ShieldIcon />
                 <p>Secure payment</p>
               </TopItem>
               <TopItem>
-                <CurrencyRupeeIcon />
                 <p>Cash on Delivery</p>
               </TopItem>
               <TopItem>
-                <DvrIcon />
                 <p>Warranty Policy</p>
               </TopItem>
             </Flex>
@@ -162,9 +154,7 @@ export default function footer() {
                 <p>9:00-18:00, MON-SUN</p>
                 <p>Including Holidays</p>
                 <FlexItem>
-                  <M>
-                    <HeadsetMicIcon />
-                  </M>
+                  <M></M>
                   <CenterP>
                     <CenterP>Chat Support</CenterP>
                   </CenterP>
