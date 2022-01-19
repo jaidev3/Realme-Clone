@@ -58,7 +58,7 @@ const CenterP = styled.div`
 `;
 const SocialMediaIcon = styled.div`
   display: flex;
-  margin: 1rem 2.3rem;
+  margin: 1rem 3rem;
 `;
 
 const I = styled.div`
