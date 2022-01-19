@@ -1,5 +1,4 @@
 import React from "react";
-
 import styled from "styled-components";
 
 const Center = styled.div`
@@ -35,7 +34,7 @@ const P = styled.p`
 `;
 const FlexItem = styled.div`
   display: flex;
-  margin: 0.2rem 3rem;
+  margin: 0.2rem 3.5rem;
   border: 1px solid black;
   width: 140px;
   height: 34px;
@@ -63,12 +62,13 @@ const SocialMediaIcon = styled.div`
 `;
 
 const I = styled.div`
+  text-align: center;
   background: black;
-  margin: 0.22rem;
+  margin: 0.2rem;
   color: white;
-  width: 15px;
-  height: 15px;
-  padding: 0.4rem;
+  width: 30px;
+  height: 30px;
+  // padding: 0.4rem;
   border: 1px solid black;
   border-radius: 50%;
   cursor: pointer;
@@ -80,13 +80,21 @@ const Hr = styled.hr`
   width: 93%;
 `;
 const Bottom = styled.p`
-  margin: 3px 2.8rem;
+  float: left;
+  margin: 0 3rem;
+`;
+const Left = styled.p`
+  margin: 0px 2.8rem;
   float: left;
 `;
 const Right = styled.p`
-  margin: 3px 2.8rem;
+  margin: 0px 2.8rem;
   justify-content: right;
   float: right;
+`;
+
+const SizeOfIcon = styled.div`
+  font-size: 40px;
 `;
 
 export default function footer() {
@@ -97,16 +105,28 @@ export default function footer() {
           <TopContainer>
             <Flex>
               <TopItem>
+                <SizeOfIcon>
+                  <i class="bi bi-bag-check"></i>{" "}
+                </SizeOfIcon>
                 <p>Free Shipping</p>
               </TopItem>
 
               <TopItem>
+                <SizeOfIcon>
+                  <i class="bi bi-shield-check"></i>{" "}
+                </SizeOfIcon>
                 <p>Secure payment</p>
               </TopItem>
               <TopItem>
+                <SizeOfIcon>
+                  <i class="bi bi-coin"></i>{" "}
+                </SizeOfIcon>
                 <p>Cash on Delivery</p>
               </TopItem>
               <TopItem>
+                <SizeOfIcon>
+                  <i class="bi bi-display"></i>{" "}
+                </SizeOfIcon>
                 <p>Warranty Policy</p>
               </TopItem>
             </Flex>
@@ -182,12 +202,15 @@ export default function footer() {
           </Flex>
         </Top>
         <Bottom>India ( English / INR )</Bottom>
+        <br />
         <Hr></Hr>
-
-        <Bottom>© 2018-2022 realme. All Rights Reserved.</Bottom>
+        <Left>© 2018-2022 realme. All Rights Reserved.</Left>
         <Right>
           User Agreement | Privacy Policy | Terms of Sales | Warranty Terms
         </Right>
+        <br />
+        <br />
+        <br />
       </Center>
     </div>
   );
