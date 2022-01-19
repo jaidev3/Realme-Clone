@@ -50,8 +50,9 @@ const CenterBox = styled.div`
 `;
 
 const M = styled.div`
-  margin: 0.2rem 0.2rem 0;
-  padding: 0 0.4rem 0 0;
+  margin: 0 0.5rem;
+  padding: 0 0.2rem 0 0;
+  font-size: 22px;
 `;
 const CenterP = styled.div`
   margin: 0.2rem 0;
@@ -174,7 +175,9 @@ export default function footer() {
                 <p>9:00-18:00, MON-SUN</p>
                 <p>Including Holidays</p>
                 <FlexItem>
-                  <M></M>
+                  <M>
+                    <i class="bi bi-headset"></i>
+                  </M>
                   <CenterP>
                     <CenterP>Chat Support</CenterP>
                   </CenterP>
@@ -185,16 +188,16 @@ export default function footer() {
                 <SocialMediaIcon>
                   <I>
                     {" "}
-                    <i className="fa fa-facebook"></i>
+                    <i className="bi bi-facebook"></i>
                   </I>
                   <I>
-                    <i className="fa fa-twitter"></i>
+                    <i className="bi bi-twitter"></i>
                   </I>
                   <I>
-                    <i className="fa fa-youtube-play"></i>
+                    <i className="bi bi-youtube"></i>
                   </I>
                   <I>
-                    <i className="fa fa-instagram"></i>
+                    <i className="bi bi-instagram"></i>
                   </I>
                 </SocialMediaIcon>
               </CenterBox>
