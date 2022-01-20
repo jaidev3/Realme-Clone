@@ -3,11 +3,14 @@
   color: black;
   display: flex;
   z-index: 1;
+  width: 75%;
+  margin: 0 auto;
+  height: 50px;
 }
 .nav .logo {
   font-size: 26px;
   padding: 0px;
-  margin-left: 14%;
+  margin: 0;
 }
 .nav .logo a {
   color: black;
@@ -18,12 +21,11 @@
   padding: 0;
   display: flex;
   justify-content: space-between;
-  width: 70%;
-  margin: auto;
 }
 ul li {
   padding: 0px;
   list-style: none;
+  margin: 0 0.9rem;
 }
 ul li a {
   color: black;
@@ -38,6 +40,10 @@ section {
 .sticky {
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
+  margin: auto;
+}
+.bi-search {
+  margin: 8px 4px;
+  font-size: 20px;
 }
