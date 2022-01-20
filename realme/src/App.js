@@ -13,10 +13,11 @@ function App() {
 <Route path="/" element={<Realme />}></Route>
 <Route path="/login" element={<Login />}></Route>
 <Route path="/cart" element={<Cart />}></Route>
+<Route path="/search" element={<Search />}></Route>
 
 </Routes>
      
-      <Footer />
+      <Footer />      
     </div>
   );
 }

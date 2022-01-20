@@ -5,7 +5,6 @@ import MegaMenu from "./MegaMenu";
 function Realme() {
   return (
     <>
-     
       <Carouse />
     </>
   );

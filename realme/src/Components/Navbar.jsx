@@ -1,6 +1,10 @@
 import Sticky from "./StickyHeader";
+import { Link } from "react-router-dom";
 
 function Navbar() {
+  const linkdecor = {
+    textDecoration: "none",
+  };
   return (
     <>
       <div
@@ -32,10 +36,22 @@ function Navbar() {
             wordSpacing: "8px",
           }}
         >
-         
+
+          <Link style={{ color: "black" }} to="/login">
+            Login{" "}
+          </Link>{" "}
+          |{" "}
+          <Link style={{ color: "black" }} to="/cart">
+            My-Order
+          </Link>{" "}
+          |{" "}
+          <Link style={{ color: "black" }} to="/cart">
+            Cart{" "}
+          </Link>
+
         </div>
       </div>
-      <hr/>
+      <hr />
       <Sticky />
     </>
   );
