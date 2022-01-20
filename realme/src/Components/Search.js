@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import data from "../ProductData/db.json";
 import styled from "styled-components";
-import Navbar from "./Navbar";
-
+import ReactPaginate from "react-paginate";
+import Pagination from "../Pagination";
 const Div = styled.div`
   background: #f4f4f5;
 `;
@@ -60,14 +60,22 @@ const H4 = styled.p`
 const Select = styled.div`
   height: 20px;
   width: 80px;
-
   outline: none;
 `;
 
 export default function Products() {
+  const [perPage, setPerPage] = useState(4);
+  const [pageNumber, setPageNumber] = useState({
+    start: 0,
+    end: perPage,
+  });
+
+  const OnPaginationChange = (start, end) => {
+    setPageNumber({ start: start, end: end });
+  };
+
   return (
     <div>
-      <Navbar />
       <Div>
         <Container>
           <FlexItem>
@@ -88,18 +96,54 @@ export default function Products() {
           <H2>Seach Result</H2>
 
           <Content>
-            {data.goneInFlash.map((el, i) => {
-              return (
-                <div key={i}>
-                  <Item>
-                    <Img src={el.imgOne} alt="img" />
-                    <H3>{el.title}</H3>
-                    <P>₹ {el.price}</P>
-                  </Item>
-                </div>
-              );
-            })}
+            {data.goneInFlash
+              .slice(pageNumber.start, pageNumber.end)
+              .map((el, i) => {
+                return (
+                  <div key={i}>
+                    <Item>
+                      <Img src={el.imgOne} alt="img" />
+                      <H3>{el.title}</H3>
+                      <P>₹ {el.price}</P>
+                    </Item>
+                  </div>
+                );
+              })}
+            {data.onlyHere
+              .slice(pageNumber.start, pageNumber.end)
+
+              .map((el, i) => {
+                return (
+                  <div key={i}>
+                    <Item>
+                      <Img src={el.imgTwo} alt="img" />
+                      <H3>{el.title}</H3>
+                      <P>₹ {el.price}</P>
+                    </Item>
+                  </div>
+                );
+              })}
+            {data.phones
+              .slice(pageNumber.start, pageNumber.end)
+
+              .map((el, i) => {
+                return (
+                  <div key={i}>
+                    <Item>
+                      <Img src={el.imgTwo} alt="img" />
+                      <H3>{el.title}</H3>
+                      <P>₹ {el.price}</P>
+                    </Item>
+                  </div>
+                );
+              })}
           </Content>
+
+          <Pagination
+            perPage={perPage}
+            OnPaginationChange={OnPaginationChange}
+            total={data.goneInFlash.length}
+          />
         </Container>
       </Div>
     </div>
