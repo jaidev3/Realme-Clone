@@ -1,3 +1,4 @@
+
 import React from "react";
 import data from "../db.json";
 import styled from "styled-components";
@@ -11,6 +12,7 @@ const Container = styled.div`height: 503px;
 width: 1121px;
 padding: 5px;
 `;
+
 
 const Img = styled.img`
   width: 60%;
@@ -90,6 +92,7 @@ export default function Products() {
           })}
           </Carousel>
 
+
     
           <h2 className="gone">ONLY HERE</h2>
           <Carousel style={{height : "503px",
@@ -115,3 +118,6 @@ export default function Products() {
     </Div>
   );
 }
+
+
+
