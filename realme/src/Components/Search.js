@@ -25,7 +25,6 @@ const Item = styled.div`
   justify-content: center;
   margin: 1rem;
   height: 400px;
-
   &:hover {
     width: 90%;
   }
@@ -111,7 +110,6 @@ export default function Products() {
               })}
             {data.onlyHere
               .slice(pageNumber.start, pageNumber.end)
-
               .map((el, i) => {
                 return (
                   <div key={i}>

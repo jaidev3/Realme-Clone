@@ -60,6 +60,7 @@ function Sticky() {
             </a>
           </li>
         </ul>
+        <i class="bi bi-search"></i>
       </div>
     </>
   );
