@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import {Link}  from "react-router-dom"
 import "./StickyHeader.css";
 import MegaMenu from "./MegaMenu";
 import logo from "../image/realmeimg.svg";
@@ -18,7 +19,7 @@ function Sticky() {
     <>
       <div className={`nav ${sticky1}`}>
         <div className="logo">
-          <a href="#"><img src={logo} alt="" /></a>
+          <Link to="/"><img src={logo} alt="" /></Link>
         </div>
         <ul>
           <li>
