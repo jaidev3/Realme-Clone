@@ -1,0 +1,49 @@
+button.rec-dot{
+    background-color: white;
+    box-shadow: white;
+  }
+  
+  button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
+    box-shadow: white;
+  }
+
+  button.sc-bdvvtL.jRFJkP.rec.rec-arrow.rec.rec-arrow-right
+  {
+    background-color: white;
+  }
+
+  button.sc-bdvvtL.jRFJkP.rec.rec-arrow.rec.rec-arrow-right:hover
+  {
+    background-color: rgba(0,0,0,.15);
+  }
+
+button.sc-bdvvtL.cNNJIt.rec.rec-arrow.rec.rec-arrow-left {
+    background-color: white;
+}
+
+button.sc-bdvvtL.cNNJIt.rec.rec-arrow.rec.rec-arrow-left:hover {
+    background-color: rgba(0,0,0,.15);
+}
+
+  .rec.rec-dot {
+    visibility: hidden;
+    
+  }
+  .rec.rec-dot_active {
+    visibility: hidden;
+  }
+/* 
+  div.sc-eCImPb.jMNKZk.rec.rec-carousel {
+    height: 432px;margin-top: -279px;
+  } */
+
+  /* div.sc-eCImPb.jMNKZk.rec.rec-carousel
+  {
+    height: 432px;margin-top: -419px;
+  } */
+
+
+.gone { text-align: initial;
+  margin-left: 11px;}
+ 
+  
