@@ -32,7 +32,7 @@ function Navbar() {
             wordSpacing: "8px",
           }}
         >
-          Login | My-Order | Cart
+         
         </div>
       </div>
       <hr/>
