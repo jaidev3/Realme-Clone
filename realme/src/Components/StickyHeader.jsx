@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./StickyHeader.css";
 import MegaMenu from "./MegaMenu";
 import logo from "../image/realmeimg.svg";
@@ -18,23 +19,45 @@ function Sticky() {
     <>
       <div className={`nav ${sticky1}`}>
         <div className="logo">
-          <a href="#"><img src={logo} alt="" /></a>
+          <Link to="/">
+            <img src={logo} alt="" />
+          </Link>
         </div>
         <ul>
           <li>
-            <a href="#"><MegaMenu title={"Home"}/></a>
+            <a href="#">
+              <MegaMenu title={"realme Smartphones"} />
+            </a>
           </li>
           <li>
-            <a href="#"><MegaMenu title={"Phones"}/></a>
+            <a href="#">
+              <MegaMenu title={"narzo Smartphones"} />
+            </a>
           </li>
           <li>
-            <a href="#"><MegaMenu title={"Tvs"}/></a>
+            <a href="#">
+              <MegaMenu title={"realme TV"} />
+            </a>
           </li>
           <li>
-            <a href="#"><MegaMenu title={"Headphone"}/></a>
+            <a href="#">
+              <MegaMenu title={"Laptop & Tablet"} />
+            </a>
           </li>
           <li>
-            <a href="#"><MegaMenu title={"Others"}/></a>
+            <a href="#">
+              <MegaMenu title={"Audio"} />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <MegaMenu title={"Smart Life"} />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <MegaMenu title={"Accessories & Lifestyle"} />
+            </a>
           </li>
         </ul>
       </div>

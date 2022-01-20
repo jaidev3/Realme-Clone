@@ -9,7 +9,9 @@ import Search from "./Components/Search";
 function App() {
   return (
     <div className="App">
-      <Realme />
+
+      <Navbar />
+
       <Routes>
         <Route path="/" element={<Realme />}></Route>
         <Route path="/login" element={<Login />}></Route>
