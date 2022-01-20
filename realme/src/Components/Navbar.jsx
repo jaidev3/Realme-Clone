@@ -36,7 +36,6 @@ function Navbar() {
             wordSpacing: "8px",
           }}
         >
-
           <Link style={{ color: "black" }} to="/login">
             Login{" "}
           </Link>{" "}
@@ -48,7 +47,6 @@ function Navbar() {
           <Link style={{ color: "black" }} to="/cart">
             Cart{" "}
           </Link>
-
         </div>
       </div>
       <hr />

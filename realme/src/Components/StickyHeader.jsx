@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {Link}  from "react-router-dom"
+import { Link } from "react-router-dom";
 import "./StickyHeader.css";
 import MegaMenu from "./MegaMenu";
 import logo from "../image/realmeimg.svg";
@@ -19,23 +19,35 @@ function Sticky() {
     <>
       <div className={`nav ${sticky1}`}>
         <div className="logo">
-          <Link to="/"><img src={logo} alt="" /></Link>
+          <Link to="/">
+            <img src={logo} alt="" />
+          </Link>
         </div>
         <ul>
           <li>
-            <a href="#"><MegaMenu title={"Home"}/></a>
+            <a href="#">
+              <MegaMenu title={"Home"} />
+            </a>
           </li>
           <li>
-            <a href="#"><MegaMenu title={"Phones"}/></a>
+            <a href="#">
+              <MegaMenu title={"Phones"} />
+            </a>
           </li>
           <li>
-            <a href="#"><MegaMenu title={"Tvs"}/></a>
+            <a href="#">
+              <MegaMenu title={"Tvs"} />
+            </a>
           </li>
           <li>
-            <a href="#"><MegaMenu title={"Headphone"}/></a>
+            <a href="#">
+              <MegaMenu title={"Headphone"} />
+            </a>
           </li>
           <li>
-            <a href="#"><MegaMenu title={"Others"}/></a>
+            <a href="#">
+              <MegaMenu title={"Others"} />
+            </a>
           </li>
         </ul>
       </div>
