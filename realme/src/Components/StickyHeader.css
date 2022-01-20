@@ -5,7 +5,7 @@
   z-index: 1;
 }
 .nav .logo {
-  font-size: 24px;
+  font-size: 26px;
   padding: 0px;
   margin-left: 14%;
 }
@@ -30,7 +30,7 @@ ul li a {
   display: block;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 section {
   height: 300px;

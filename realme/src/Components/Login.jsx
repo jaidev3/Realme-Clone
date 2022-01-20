@@ -1,7 +1,20 @@
-import React from "react";
+import {React,useState,useContext} from "react";
+import { AuthContext } from "../ContextApi/AuthContext";
+import {useNavigate} from "react-router-dom"
 import "../styles/login.css";
 
 const Login = () => {
+  const [form, setForm] = useState({});
+  const { handleToken } = useContext(AuthContext);
+  const navigate = useNavigate();
+  const handleChange = ({ target: { name, value } }) => {
+    setForm({
+      ...form,
+      [name]: value
+    });
+  };
+
+
   return (
     <div>
       <div className="back">
@@ -16,24 +29,38 @@ const Login = () => {
           <span>Sign in with password</span>
           <br />
           <br />
-          <input
+          <input  onChange={handleChange}
             autocomplete="off"
             className="input_box"
             placeholder="Phone/Email"
-            name="account"
+            name="email"
             type="text"
-            value=""
           />
-          <input
+          <input  onChange={handleChange}
             autocomplete="off"
             className="input_box"
             placeholder="Password"
-            name="account"
+            name="password"
             type="text"
-            value=""
           />
           <div className="forgot">Forgot password?</div>
-          <div className="button_signin">Sign in</div>
+          <div 
+           onClick={() => {
+            fetch("https://reqres.in/api/login", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(form)
+            })
+              .then((d) => d.json())
+              .then((res) => {
+                handleToken(res.token);
+                console.log(res);
+                if (res.token) {
+                  navigate(-1);
+                }
+              });
+          }}
+          className="button_signin">Sign in</div>
           <div className="privacy">Privacy Notice</div>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
