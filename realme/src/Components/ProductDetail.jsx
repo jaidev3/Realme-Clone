@@ -1,13 +1,9 @@
+function ProductDetails() {
+  return (
+    <>
+      <h1>ProductDetails</h1>
+    </>
+  );
+}
 
-
-function ProductDetails(){
-    return (
-        <>
-        <h1>ProductDetails</h1>
-        </>
-    )
-    
-    
-    }
-    
-    export default ProductDetails;
+export default ProductDetails;
