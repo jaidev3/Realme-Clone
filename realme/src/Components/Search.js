@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../ProductData/db.json";
 import styled from "styled-components";
+import Navbar from "./Navbar";
 
 const Div = styled.div`
   background: #f4f4f5;
@@ -62,44 +63,45 @@ const Select = styled.div`
 
   outline: none;
 `;
-const I = styled.i`
-  display: block;
-`;
+
 export default function Products() {
   return (
-    <Div>
-      <Container>
-        <FlexItem>
-          <H4>All</H4>
-          <H4>Latest</H4>
-          <H4>Sales</H4>
-          <H4>
-            <Select>
-              <select default="Price">
-                <option>Price</option>
-                <option>Low</option>
-                <option>High</option>
-              </select>
-            </Select>
-          </H4>
-        </FlexItem>
+    <div>
+      <Navbar />
+      <Div>
+        <Container>
+          <FlexItem>
+            <H4>All</H4>
+            <H4>Latest</H4>
+            <H4>Sales</H4>
+            <H4>
+              <Select>
+                <select default="Price">
+                  <option>Price</option>
+                  <option>Low</option>
+                  <option>High</option>
+                </select>
+              </Select>
+            </H4>
+          </FlexItem>
 
-        <H2>Seach Result</H2>
+          <H2>Seach Result</H2>
 
-        <Content>
-          {data.goneInFlash.map((el, i) => {
-            return (
-              <div key={i}>
-                <Item>
-                  <Img src={el.imgOne} alt="img" />
-                  <H3>{el.title}</H3>
-                  <P>₹ {el.price}</P>
-                </Item>
-              </div>
-            );
-          })}
-        </Content>
-      </Container>
-    </Div>
+          <Content>
+            {data.goneInFlash.map((el, i) => {
+              return (
+                <div key={i}>
+                  <Item>
+                    <Img src={el.imgOne} alt="img" />
+                    <H3>{el.title}</H3>
+                    <P>₹ {el.price}</P>
+                  </Item>
+                </div>
+              );
+            })}
+          </Content>
+        </Container>
+      </Div>
+    </div>
   );
 }
