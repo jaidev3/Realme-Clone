@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import data from "../ProductData/db.json";
 import styled from "styled-components";
 import ReactPaginate from "react-paginate";
-import Pagination from "../Pagination";
+import Pagination from "./Pagination";
 const Div = styled.div`
   background: #f4f4f5;
 `;
