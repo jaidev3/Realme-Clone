@@ -1,10 +1,13 @@
 import { useParams, Navigate } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
+import{Link} from "react-router-dom"
 import { AuthContext } from "../ContextApi/AuthContext";
 import "./Cart.css";
 
 function Cart() {
   const { token } = useContext(AuthContext);
+  const [totalAmount,setTotalAmount] = useState(0)
+  const [count,setCount] = useState(0)
 
   // if (!token) {
   //   return <Navigate to={"/login"} />;
@@ -52,16 +55,16 @@ function Cart() {
           </div>
         </div>
         <div className="cartitems">
-          <div>Continue shopping </div>
+         <Link to="/"><div>Continue shopping~</div></Link>
           <div className="cartitems1">
             <div>
               <p>
                 Count : &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
-                &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 0
+                &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; {count}
               </p>{" "}
               <p>
                 Total : &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; 0
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; {totalAmount}
               </p>
             </div>
             <div>

@@ -1,6 +1,6 @@
 
 import React from "react";
-import data from "../db.json";
+import data from "../ProductData/db.json";
 import styled from "styled-components";
 import Carousel from "react-elastic-carousel";
 import "../styles/elastic.css"

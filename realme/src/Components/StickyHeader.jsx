@@ -49,11 +49,11 @@ function Sticky() {
               <MegaMenu title={"Audio"} />
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#">
               <MegaMenu title={"Smart Life"} />
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#">
               <MegaMenu title={"Accessories & Lifestyle"} />
