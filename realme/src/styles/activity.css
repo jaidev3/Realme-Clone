@@ -1,76 +1,69 @@
-.bigbox {
-    width: 1288px;
-
-    height: 400px;
-    margin: 32px;
-    background-color: rgba(128, 128, 128, 0.329)
+.one {
+  width: 1288px;
+  height: 400px;
+  margin: 32px;
+  background-color: rgba(128, 128, 128, 0.329);
 }
 
-.imgbox{
-    width: 45%;
-    float: left;
-    padding: 12px;
-    margin-left: 27px;
+.imgbox {
+  width: 45%;
+  float: left;
+  padding: 12px;
+  margin-left: 27px;
 }
 
-.imgbox2{
-    width: 45%;
-    float: left;
-    padding: 12px;
-    margin-left: 27px;
-    height: 341px;
+.imgbox2 {
+  width: 45%;
+  float: left;
+  padding: 12px;
+  margin-left: 27px;
+  height: 341px;
 }
 
 .centered {
-    position: absolute;
-    top: 103%;
-    font-size: 44px;
-    color: white;
-    line-height: 54px;
-    margin-bottom: 40px;
-    left: 50%;
-  
-  }
-  .centeredd {
-   
-   
-    width: 195px;
-    font-size: 16px;
-    text-align: center;
-  
-    background: 0 0;
-    color: white;
-    line-height: 48px;
-    margin-bottom: 40px;
-   
-    border: 1px solid white;
-    position: absolute;
-    top: 123%;
-    left: 60%;
-  
-    transform: translate(-50%, -50%);
-  }
+  position: absolute;
+  top: 103%;
+  font-size: 44px;
+  color: white;
+  line-height: 54px;
+  margin-bottom: 40px;
+  left: 50%;
+}
+.centeredd {
+  width: 195px;
+  font-size: 16px;
+  text-align: center;
 
-  .centeredd:hover {
-    
-    width: 195px;
-    font-size: 16px;
-    text-align: center;
-  
-    background: white;
-    color: black;
-    line-height: 48px;
-    margin-bottom: 40px;
-   
-    border: 1px solid white;
-    position: absolute;
-    top: 123%;
-    left: 60%;
-  
-    transform: translate(-50%, -50%);
-  }
+  background: 0 0;
+  color: white;
+  line-height: 48px;
+  margin-bottom: 40px;
+
+  border: 1px solid white;
+  position: absolute;
+  top: 123%;
+  left: 60%;
+
+  transform: translate(-50%, -50%);
+}
+
+.centeredd:hover {
+  width: 195px;
+  font-size: 16px;
+  text-align: center;
+
+  background: white;
+  color: black;
+  line-height: 48px;
+  margin-bottom: 40px;
+
+  border: 1px solid white;
+  position: absolute;
+  top: 123%;
+  left: 60%;
+
+  transform: translate(-50%, -50%);
+}
 .longimg {
-    height: 400px;
-  
- 
+  height: 400px;
 }

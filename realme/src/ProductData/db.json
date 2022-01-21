@@ -1,6 +1,7 @@
 {
   "goneInFlash": [
     {
+      "id" : 1,
       "title": "realme Hair Dryer (White)",
       "color": ["White"],
       "price": 1799,
@@ -12,6 +13,7 @@
       "imgFourth": "https://image01.realme.net/general/20210624/1624541477696.png"
     },
     {
+      "id" : 2,
       "title": "realme Buds Wireless 2 Neo (Green)",
       "color": ["Blue", "Black", "Green"],
       "price": 1299,
@@ -24,6 +26,7 @@
     },
 
     {
+      "id" : 3,
       "title": "realme Pocket Bluetooth Speaker - 3W (Desert Grey)",
       "color": ["Classic Black", "Desert Grey"],
       "price": 699,
@@ -36,6 +39,7 @@
     },
 
     {
+      "id" : 4,
       "title": "realme M1 Regular Electric Toothbrush Head(Blue)",
       "color": ["Blue", "White"],
       "price": 399,
@@ -51,6 +55,7 @@
     },
 
     {
+      "id" : 5,
       "title": "realme Beard Trimmer (Black)",
       "color": ["Black"],
       "price": 1099,
@@ -63,6 +68,7 @@
     },
 
     {
+      "id" : 6,
       "title": "realme Smart TV Full HD 80cm(32)(Black)",
       "color": ["Black"],
       "price": 17999,
@@ -75,6 +81,7 @@
     },
 
     {
+      "id" : 7,
       "title": "realme Buds Air 2 (Closer Black)",
       "color": ["Closer Green", "Closer Black", "Closer Gold", "Closer White"],
       "price": 2999,
@@ -87,6 +94,7 @@
     },
 
     {
+      "id" : 8,
       "title": "realme TechLife Air Purifier (White)",
       "color": ["White"],
       "price": 7499,
@@ -99,6 +107,7 @@
     },
 
     {
+      "id" : 9,
       "title": "realme Band 2 (Black)",
       "color": ["Black"],
       "price": 2199,
@@ -111,6 +120,7 @@
     },
 
     {
+      "id" : 10,
       "title": "realme Smart TV 80cm (32”)",
       "color": "Black",
       "price": 15999,
@@ -123,6 +133,7 @@
     },
 
     {
+      "id" : 11,
       "title": "realme N1 Sonic Electric Toothbrush (White)",
       "color": ["Blue"],
       "price": 599,
@@ -135,6 +146,7 @@
     },
 
     {
+      "id" : 12,
       "title": "realme N1 Electric Toothbrush Head (White)",
       "color": ["Blue", "White"],
       "price": 199,
@@ -147,6 +159,7 @@
     },
 
     {
+      "id" : 13,
       "title": "realme Watch 2 Pro (Metallic Silver)",
       "color": ["Space Grey", "Metallic Silver"],
       "price": 4499,
@@ -159,6 +172,7 @@
     },
 
     {
+      "id" : 14,
       "title": "realme Brick Bluetooth Speaker (Black)",
       "color": ["Black"],
       "price": 2499,
@@ -171,6 +185,7 @@
     },
 
     {
+      "id" : 15,
       "title": "realme 10000mAh Power Bank 2 (Black)",
       "color": ["BLACK", "YELLOW"],
       "price": 1099,
@@ -183,6 +198,7 @@
     },
 
     {
+      "id" : 16,
       "title": "realme Buds Air Pro (Soul White)",
       "color": ["Soul White", "Matte Black", "New Wave Silver", "Rock Black"],
       "price": 4499,
@@ -195,6 +211,7 @@
     },
 
     {
+      "id" : 17,
       "title": "realme Smart Scale (White)",
       "color": ["White", "Blue"],
       "price": 1499,
@@ -207,6 +224,7 @@
     },
 
     {
+      "id" : 18,
       "title": "realme Buds Q2 Neo (Black)",
       "color": ["Black", "Blue"],
       "price": 1399,
@@ -219,6 +237,7 @@
     },
 
     {
+      "id" : 19,
       "title": "realme Smart TV Stick",
       "color": ["Black"],
       "price": 3499,
@@ -231,6 +250,7 @@
     },
 
     {
+      "id" : 20,
       "title": "realme LED Smart Bulb (Grey) 9W",
       "color": ["Grey"],
       "price": 699,
@@ -501,6 +521,23 @@
       "imgTwo": "https://image01.realme.net/general/20210604/1622779355361.png",
       "imgThrid": "https://image01.realme.net/general/20210604/1622779363015.png",
       "imgFourth": "https://image01.realme.net/general/20210604/1622779368270.png"
+    }
+  ],
+
+    "phonesData": [
+    {
+       "id" : 1,
+      "title": "realme C21Y (Cross Black, 3GB+32GB)",
+      "price": 9499,
+      "description": "",
+      "color": ["Cross Black", "Cross Blue"],
+      "quantity": 1,
+      "Configuration": ["3GB+32GB", "4GB+64GB"],
+      "src":
+      [ "https://image01.realme.net/general/20210823/1629710687411.jpg",
+       "https://image01.realme.net/general/20210803/1627970493729.png",
+       "https://image01.realme.net/general/20210803/1627970501173.png",
+       "https://image01.realme.net/general/20210803/1627970505935.png"]
     }
   ]
 }

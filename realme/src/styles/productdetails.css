@@ -1,0 +1,91 @@
+.details {
+  width: 75%;
+  margin: auto;
+  height: 40px;
+}
+
+.details .left {
+  float: left;
+}
+.details .right {
+  float: right;
+}
+hr {
+  background-color: rgb(190, 187, 187);
+  height: 0.5px;
+}
+
+.data {
+  width: 76%;
+  margin: auto;
+  display: flex;
+}
+.data .left_data {
+  width: 45%;
+  /* background-color: burlywood; */
+  margin: 1%;
+}
+
+.data img {
+  width: 300px;
+  justify-content: center;
+  text-align: center;
+}
+.data .right_data {
+  width: 45%;
+  margin: 1%;
+  text-align: left;
+}
+.data .right_data .redColor {
+  background-color: rgba(255, 2, 2, 0.295);
+  height: 40px;
+}
+.data .right_data p {
+  color: red;
+  font-size: 20px;
+}
+
+.color {
+  display: flex;
+}
+.detailsBox h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+.color h6 {
+  margin: 0px 2rem 0 0;
+  color: black;
+  font-size: 20px;
+  font-weight: 100;
+  border: 1px solid black;
+  padding: 0 40px;
+}
+.quantity {
+  display: flex;
+  border: 1px solid black;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.quantity h6 {
+  margin: 3px 2rem;
+  font-size: 18px;
+}
+.quantity p {
+  margin: 0 6px 0 !important;
+  font-size: 25px !important;
+  color: black !important;
+}
+
+.thumb {
+  display: flex;
+}
+
+.thumb img {
+  width: 100px;
+  margin: auto;
+  cursor: pointer;
+}
