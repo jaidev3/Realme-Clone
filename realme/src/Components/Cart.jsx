@@ -7,8 +7,15 @@ import "./Cart.css";
 function Cart() {
   const { token } = useContext(AuthContext);
   const [totalAmount,setTotalAmount] = useState(0)
-  const [count,setCount] = useState(0)
+  const [count,setCount] = useState(0);
+  const [data,setData]= useState([])
 
+  useEffect(() => {
+
+ fetch('http://localhost:3002/cart').then((res)=>res.json()).then((res)=>setData(res))
+
+  },[])
+console.log(data)
   // if (!token) {
   //   return <Navigate to={"/login"} />;
   // }
