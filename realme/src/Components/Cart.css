@@ -1,0 +1,91 @@
+.cartmain {
+  min-height: 600px;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding-top: 40px;
+}
+
+.carttitle {
+  height: 100px;
+  width: 60%;
+  margin: auto;
+  padding-top: 20px;
+  background-color: white;
+
+  text-align: left;
+
+  padding-left: 40px;
+}
+
+.cartheader {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+}
+.cartheader > div {
+  display: flex;
+  flex-direction: row;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.cartheader1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.pincode {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10px;
+  width: 60%;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+.pincode1 {
+  align-items: left;
+  text-align: left;
+}
+.pincode > p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+.pincode input {
+  width: 300px;
+  height: 40px;
+}
+.pincode button {
+  width: 200px;
+  height: 40px;
+  background-color: #ffc915;
+  border: none;
+}
+
+.cartitems {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 10px;
+
+  width: 60%;
+  background-color: white;
+  padding: 20px 60px;
+}
+.cartitems1 button {
+  width: 200px;
+  height: 40px;
+  background-color: #ffc915;
+  border: none;
+}
+.cartitems1 {
+  text-align: left;
+}

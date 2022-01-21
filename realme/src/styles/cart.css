@@ -1,0 +1,71 @@
+.imgprod {
+  width: 60%;
+  margin-top: 36px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+
+  float: left;
+  padding: 8px;
+  margin: 6px;
+}
+
+.he {
+  text-align: start;
+  margin-left: 26px;
+  font-size: 24px;
+}
+.pri {
+  font-size: 18px;
+  line-height: 20px;
+  color: #dd0b25;
+}
+
+.delpri {
+  text-decoration: line-through;
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+}
+
+.col {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 10px 0 20px;
+}
+.row > .prod-img {
+  background-color: #f1f1f1;
+
+  margin: 10px;
+  text-align: center;
+  line-height: 10px;
+  font-size: 10px;
+  align-items: center;
+  width: 289px;
+  height: 385px;
+}
+
+.row > .tit {
+  font-size: 16px;
+  line-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-weight: 600;
+}
+
+.titt {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  line-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-weight: 600;
+}
