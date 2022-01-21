@@ -99,7 +99,7 @@ const SizeOfIcon = styled.div`
   font-size: 40px;
 `;
 
-export default function footer() {
+export default function Footer() {
   return (
     <div>
       <Center>

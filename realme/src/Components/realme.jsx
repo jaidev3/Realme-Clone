@@ -5,7 +5,8 @@ import Phone from "./Phones";
 function Realme() {
   return (
     <>
-      <div style={{ margin: "auto" }}>
+    
+      <div className="App" style={{ margin: "auto" }}>
         <Carouse />
         <div style={{ marginBottom: "300px" }}>
           <Product />

@@ -1,9 +1,10 @@
-import "../styles/productdetails.css";
+import "./Productdetails.css";
 import axios from "axios";
-import data from "../ProductData/db.json";
+import Data from "../ProductData/db.json";
+import Sanpshot from "../image/snapshot.png";
 // import Screenshot from "../image/screenshot.png";
-import { useState,useEffect } from "react";
-import {useParams} from "react-router-dom";
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 
 // let imgs = Data.phonesData;
 // let images;
@@ -14,48 +15,34 @@ import {useParams} from "react-router-dom";
 
 function ProductDetails() {
   const { id } = useParams();
-  const [d,setD]=useState([]);
-  const da = data.goneInFlash.filter((e) => e.id==`${id}`)
-  
-  useEffect(() => {
-    setD(da)
-    console.log(da[0])
-  },[])
-  
+  const [d, setD] = useState([]);
+  const da = Data.goneInFlash.filter((e) => e.id === `${id}`);
 
- const handleClick=()=>{
-   
-  const requestOptions = {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(d[0])
-};
-fetch('http://localhost:3002/cart', requestOptions)
-  // axios.post('http://localhost:3002/cart', da)
-console.log(d)
- }
-  
- 
+  useEffect(() => {
+    setD(da);
+    console.log(da[0]);
+  }, []);
+
+  const handleClick = () => {
+    const requestOptions = {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(d[0]),
+    };
+    fetch("http://localhost:3002/cart", requestOptions);
+    // axios.post('http://localhost:3002/cart', da)
+    console.log(d);
+  };
+
   // const [Images, setImages] = useState(index);
 
   // const ImageClick = (index) => {
   //   setImages(index);
   // };
- 
-  return (
-    <>
-    
-{d.map((e)=>{
-  return (
-    <>
 
-  <h1>{e.title},{e.price},{e.quantity}</h1>
-  <button onClick={handleClick}>AddtoCart</button>
-  </>
-  )
-  
-}) }
-      {/* <div>
+  return (
+    <>
+      <div>
         <div className="products_details">
           <div className="details">
             <p className="left">realme Pocket Bluetooth Speaker</p>
@@ -63,59 +50,48 @@ console.log(d)
           </div>
           <hr />
           <div className="data">
-            <div className="left_data">
-              <div className="bigimg">
-                {Data.phonesData.map((el, i) => {
-                  return <img src={el.src[0]} alt="img" key={i} />;
-                })}
-              </div> */}
-              {/* <div className="thumb">
-                {images.map((img, index) => {
-                  return (
-                    <img
-                      src={img}
-                      alt="img"
-                      onClick={() => ImageClick(index)}
-                      key={index}
-                    />
-                  );
-                })}
-              </div> */}
-            {/* </div>
-            <div className="right_data">
-              {Data.phonesData.map((el, i) => {
-                return (
-                  <div>
-                    <div className="detailsBox">
-                      <h2>{el.title}</h2>
-                      <div className="redColor">
-                        <p>₹ {el.price}</p>
-                      </div>
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png" alt="img" />
-                      <h4>Color</h4>
-                      <div className="color">
-                        <h6>{el.color[0]}</h6>
-                        <h6>{el.color[1]}</h6>
-                      </div>
-                      <h4>Configuration</h4>
-                      <div className="color">
-                        <h6>{el.Configuration[0]}</h6>
-                        <h6>{el.Configuration[1]}</h6>
-                      </div>
-                      <h4>Quantity</h4>
-                      <div className="quantity">
-                        <p>-</p>
-                        <h6>{el.quantity}</h6>
-                        <p>+</p>
-                      </div>
+            {d.map((e) => {
+              return (
+                <>
+                  <div className="left_data">
+                    <img src={e.imgOne} alt="img" />
+                    <div className="thumb">
+                      <img src={e.imgOne} alt="img" />
+                      <img src={e.imgTwo} alt="img" />
+                      <img src={e.imgThrid} alt="img" />
+                      <img src={e.imgFourth} alt="img" />
                     </div>
                   </div>
-                );
-              })}
-            </div>
+
+                  <div className="right_data">
+                    <h1>{e.title}</h1>
+                    <div className="color">
+                      <h2>₹ {e.price}</h2>
+                    </div>
+                    <div>
+                      <img src={Sanpshot} alt="img" />
+                    </div>
+                    <h2>Color</h2>
+                    <p>{e.color}</p>
+                    <h2>Configuration</h2>
+                    <p>{e.Configuration}</p>
+                    <h2>Quantity</h2>
+                    <div className="quan">
+                      <p>-</p>
+                      <p>{e.quantity}</p>
+                      <p>+</p>
+                    </div>
+                    <button id="btn" onClick={handleClick}>
+                      Add to Cart
+                    </button>
+                    <button>Buy Now</button>
+                  </div>
+                </>
+              );
+            })}
           </div>
         </div>
-      </div> */}
+      </div>
     </>
   );
 }
