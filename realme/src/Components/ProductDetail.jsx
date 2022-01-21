@@ -1,7 +1,9 @@
 import "../styles/productdetails.css";
-import Data from "../ProductData/db.json";
+import axios from "axios";
+import data from "../ProductData/db.json";
 // import Screenshot from "../image/screenshot.png";
-import { useState } from "react";
+import { useState,useEffect } from "react";
+import {useParams} from "react-router-dom";
 
 // let imgs = Data.phonesData;
 // let images;
@@ -11,15 +13,49 @@ import { useState } from "react";
 // const index = 0;
 
 function ProductDetails() {
+  const { id } = useParams();
+  const [d,setD]=useState([]);
+  const da = data.goneInFlash.filter((e) => e.id==`${id}`)
+  
+  useEffect(() => {
+    setD(da)
+    console.log(da[0])
+  },[])
+  
+
+ const handleClick=()=>{
+   
+  const requestOptions = {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(d[0])
+};
+fetch('http://localhost:3002/cart', requestOptions)
+  // axios.post('http://localhost:3002/cart', da)
+console.log(d)
+ }
+  
+ 
   // const [Images, setImages] = useState(index);
 
   // const ImageClick = (index) => {
   //   setImages(index);
   // };
-
+ 
   return (
     <>
-      <div>
+    
+{d.map((e)=>{
+  return (
+    <>
+
+  <h1>{e.title},{e.price},{e.quantity}</h1>
+  <button onClick={handleClick}>AddtoCart</button>
+  </>
+  )
+  
+}) }
+      {/* <div>
         <div className="products_details">
           <div className="details">
             <p className="left">realme Pocket Bluetooth Speaker</p>
@@ -32,7 +68,7 @@ function ProductDetails() {
                 {Data.phonesData.map((el, i) => {
                   return <img src={el.src[0]} alt="img" key={i} />;
                 })}
-              </div>
+              </div> */}
               {/* <div className="thumb">
                 {images.map((img, index) => {
                   return (
@@ -45,7 +81,7 @@ function ProductDetails() {
                   );
                 })}
               </div> */}
-            </div>
+            {/* </div>
             <div className="right_data">
               {Data.phonesData.map((el, i) => {
                 return (
@@ -79,7 +115,7 @@ function ProductDetails() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
