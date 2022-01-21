@@ -6,6 +6,8 @@ import Cart from "./Components/Cart";
 import Footer from "./Components/Footer";
 import Realme from "./Components/realme";
 import Search from "./Components/Search";
+import Products from "./Components/Product";
+import ProductDetails from "./Components/ProductDetail";
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,8 @@ function App() {
         <Route path="/login" element={<Login />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
         <Route path="/search" element={<Search />}></Route>
+        <Route path="/products" element={<Products />}></Route>
+
       </Routes>
 
       <Footer />
