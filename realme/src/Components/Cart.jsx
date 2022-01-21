@@ -10,11 +10,58 @@ function Cart() {
   const [count, setCount] = useState(0);
   const [data, setData] = useState([]);
 
+ // with initial value to avoid when the array is empty
+ useEffect(() => {
+  const sum = data.reduce(add, 0);
+  // const sum1 = data.reduce(add1, 0);
+  function add(accumulator,a) {
+
+    return accumulator + a.price;
+  
+  }  
+
+  // function add1(accumulatora,a1) {
+
+  //   return accumulatora + a1.quantity;
+  
+  // } 
+  setTotalAmount(sum)
+  // setCount(sum1)
+   console.log(sum)
+  //  console.log(sum1)
+
+ },[])
+  
+ useEffect(() => {
+  
+  const sum1 = data.reduce(add1, 0);
+  
+
+  function add1(accumulatora,a1) {
+
+    return accumulatora + a1.quantity;
+  
+  } 
+ 
+   setCount(sum1)
+  
+   console.log(sum1)
+
+ },[])
   useEffect(() => {
     fetch("http://localhost:3002/cart")
       .then((res) => res.json())
       .then((res) => {
-        return <> {setData(res)} </>;
+        return (
+          <>
+            {" "}
+            {setData(res)}
+        
+           
+            
+           {" "}
+          </>
+        );
       });
   }, []);
   console.log(data);
@@ -41,9 +88,10 @@ function Cart() {
               <p>Amount</p>
             </div>
           </div>
+
           <div
             style={{
-              height: "100px",
+              minHeight: "100px",
               width: "60%",
               backgroundColor: "white",
               margin: "auto",
@@ -52,12 +100,16 @@ function Cart() {
             {data.map((e) => {
               return (
                 <>
-                  {e.title},{e.price}
+                  <img className="imgproo" src={e.imgOne} alt="img" />
+
+                  <br />
+                  <div className="titleProd">{e.title}</div>
+                  <div className="pricepro"> {e.price}</div>
+                  <div className="quanpro"> {e.quantity}</div>
+                  <div className="amtepro"> {e.price}</div>
                 </>
               );
             })}
-            {/* design cart here */}
-            <h1>Cart Items to be Added</h1>
           </div>
         </div>
 
@@ -76,6 +128,7 @@ function Cart() {
           <div className="cartitems1">
             <div>
               <p>
+                <></>
                 Count : &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
                 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; {count}
               </p>{" "}

@@ -89,3 +89,33 @@
 .cartitems1 {
   text-align: left;
 }
+
+
+.titleProd {
+  font-size: 16px;
+  text-align: initial;
+  margin-left: 61px;
+  float: left;
+}
+
+.pricepro{
+  margin-right: 19px;
+
+}
+
+.quanpro{
+  float: right;
+  margin-right: 160px;
+  margin-top: -21px;
+}
+
+.amtepro {
+  float: right;
+  margin-right: -110px;
+  margin-top: -21px;
+}
+
+.imgproo{
+  float: left;
+  width: 12%;
+}
