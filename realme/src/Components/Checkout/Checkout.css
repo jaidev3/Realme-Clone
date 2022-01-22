@@ -8,11 +8,40 @@
   padding-right: 50px;
   text-align: left;
   /* gap: 20px; */
+  /* border: 1px solid red; */
+}
+
+.p-1 {
   border: 1px solid red;
 }
-.p-2 div {
+
+.address {
+  width: 600px;
+  gap: 10px;
+}
+.address div {
+  margin: 10px auto;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+.address input {
+  padding-left: 15px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid gainsboro;
+}
+.address button {
+  width: 150px;
+  height: 40px;
+}
+.address button:nth-child(1) {
   border: 1px solid black;
-  display: inline;
+  background-color: white;
+}
+.address button:nth-child(2) {
+  border: 0px;
+  background-color: #efbd14;
 }
 
 .p-4 {

@@ -4,7 +4,39 @@ export const Checkout = () => {
   return (
     <>
       <div className="main">
-        <div className="p-1"></div>
+        <div className="p-1">
+          <div>
+            <h3>Address</h3>
+          </div>
+          <div className="address">
+            <div>
+              <input type="text" placeholder="Full Name" />
+              <input type="text" placeholder="Mobile Number" />
+            </div>
+            <div>
+              <input type="text" placeholder="Pincode" />
+            </div>
+            <div>
+              <input type="text" placeholder="City/Town" />
+              <input type="text" placeholder="State/province/district" />
+            </div>
+            <div>
+              <input type="text" placeholder="Address" />
+            </div>
+            <div>
+              <input
+                type="email"
+                placeholder="Please enter your email address"
+              />
+              <input type="text" placeholder="Landmark" />
+            </div>
+            <div>
+              <button>Cancel</button>
+              <button>Save</button>
+            </div>
+          </div>
+        </div>
+
         <div className="p-2"></div>
         <div className="p-3">
           <h3>Commodity List</h3>
