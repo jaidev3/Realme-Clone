@@ -1,8 +1,4 @@
-.imgprod {
-  width: 60%;
-  height: 100%;
-  margin-top: 36px;
-}
+
 
 .row {
   display: flex;
@@ -73,7 +69,7 @@
 
 
 div.n {    background-color: rgb(221, 11, 37);
-  height: 294px;
+  height: 155px;
   padding: -14px;
   width: 806px;
   margin-left: 274px;
@@ -88,19 +84,23 @@ div.n {    background-color: rgb(221, 11, 37);
 
 .titleproduct{
   float: left;
+  padding: 17px;    float: left;
   padding: 17px;
+  margin-top: 40px;
 }
 
 .priceproduct{
   float: left;
   padding: 17px;
   margin-left: 128px;
+  margin-top: 36px;
 }
 
 .ppriceproduct{
   float: left;
   padding: 17px;
   margin-left: 26px;
+  margin-top: 36px;
 }
 .quantityproduct{
   float: left;
@@ -109,7 +109,8 @@ div.n {    background-color: rgb(221, 11, 37);
     border: 1px solid;
     width: 89px;
     height: 4px;
-    margin-top: 13px;
+    margin-top: 36px;
+  
 
 }
 .cartmain {
@@ -213,6 +214,9 @@ p.titleProd {
   text-align: initial;
   margin-left: 61px;
   float: left;
+  float: left;
+  padding: 17px;
+  margin-top: 40px;
 }
 
 .pricepro{
@@ -262,3 +266,9 @@ p.pricepro {
 }
 
 
+img.imageproduct{
+  margin-top: 45px;
+  width: 26%;
+  height: 48%;
+  float: left;
+}

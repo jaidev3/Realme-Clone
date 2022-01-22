@@ -13,24 +13,6 @@
       "imgTwo": "https://image01.realme.net/general/20210624/1624541462630.png",
       "imgThrid": "https://image01.realme.net/general/20210624/1624541471353.png",
       "imgFourth": "https://image01.realme.net/general/20210624/1624541477696.png"
-    },
-    {
-      "id": "4",
-      "title": "realme M1 Regular Electric Toothbrush Head(Blue)",
-      "color": [
-        "Blue",
-        "White"
-      ],
-      "price": 399,
-      "quantity": "",
-      "Configuration": [
-        "Regular Electric Toothbrush Head",
-        "Sensitive Electric Toothbrush Head"
-      ],
-      "imgOne": "https://image01.realme.net/general/20210125/1611568002181.jpg",
-      "imgTwo": "",
-      "imgThrid": "",
-      "imgFourth": ""
     }
   ]
 }
