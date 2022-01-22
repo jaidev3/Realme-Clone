@@ -11,10 +11,6 @@
   /* border: 1px solid red; */
 }
 
-.p-1 {
-  border: 1px solid red;
-}
-
 .address {
   width: 600px;
   gap: 10px;
@@ -42,6 +38,19 @@
 .address button:nth-child(2) {
   border: 0px;
   background-color: #efbd14;
+}
+
+.p-2 {
+  padding: 20px 0px;
+}
+.p-2 div:nth-child(1) {
+  display: flex;
+  gap: 20px;
+}
+.p-2 div:nth-child(2) {
+  border: 1px solid black;
+  padding: 10px 50px;
+  width: 200px;
 }
 
 .p-4 {

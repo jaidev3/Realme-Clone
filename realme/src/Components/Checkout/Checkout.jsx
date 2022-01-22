@@ -36,12 +36,18 @@ export const Checkout = () => {
             </div>
           </div>
         </div>
-
-        <div className="p-2"></div>
+        <div className="p-2">
+          <div>
+            <h3>Delivery Services</h3>
+            <p>It is estimated to be delivered within 3-5 days</p>
+          </div>
+          <div>
+            <h4>Rapid Delivery</h4>
+          </div>
+        </div>
         <div className="p-3">
           <h3>Commodity List</h3>
         </div>
-
         <div className="p-4">
           <div>
             <h3>Coupons</h3>
@@ -50,7 +56,6 @@ export const Checkout = () => {
             <p>Add Coupons Code -</p>
           </div>
         </div>
-
         <div className="p-5">
           <div>
             <p>Total Quantity</p>
