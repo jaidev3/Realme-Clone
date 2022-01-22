@@ -4,6 +4,7 @@ import styled from "styled-components";
 const Center = styled.div`
   width: 80%;
   margin: auto;
+  
   // border: 1px solid red;
 `;
 
@@ -98,7 +99,7 @@ const SizeOfIcon = styled.div`
   font-size: 40px;
 `;
 
-export default function footer() {
+export default function Footer() {
   return (
     <div>
       <Center>

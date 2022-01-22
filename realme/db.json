@@ -1,0 +1,18 @@
+{
+  "cart": [
+    {
+      "id": "1",
+      "title": "realme Hair Dryer (White)",
+      "color": [
+        "White"
+      ],
+      "price": 1799,
+      "quantity": 1,
+      "Configuration": [],
+      "imgOne": "https://image01.realme.net/general/20210624/1624541450977.png",
+      "imgTwo": "https://image01.realme.net/general/20210624/1624541462630.png",
+      "imgThrid": "https://image01.realme.net/general/20210624/1624541471353.png",
+      "imgFourth": "https://image01.realme.net/general/20210624/1624541477696.png"
+    }
+  ]
+}

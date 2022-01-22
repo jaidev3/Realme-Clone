@@ -3,6 +3,7 @@ import data from "../ProductData/db.json";
 import styled from "styled-components";
 import ReactPaginate from "react-paginate";
 import Pagination from "./Pagination";
+import {Link} from "react-router-dom";
 const Div = styled.div`
   background: #f4f4f5;
 `;
@@ -100,11 +101,13 @@ export default function Products() {
               .map((el, i) => {
                 return (
                   <div key={i}>
-                    <Item>
+                   <Link to={`/search/${el.id}`}>
+                   <Item>
                       <Img src={el.imgOne} alt="img" />
                       <H3>{el.title}</H3>
                       <P>₹ {el.price}</P>
                     </Item>
+                   </Link>
                   </div>
                 );
               })}
