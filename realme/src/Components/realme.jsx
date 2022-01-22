@@ -10,7 +10,14 @@ function Realme() {
         <div style={{ marginBottom: "300px" }}>
           <Product />
         </div>
+        <div  >
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <Phone />
+        </div>
+     
         <Activity />
       </div>
     </>

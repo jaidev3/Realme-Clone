@@ -2,7 +2,7 @@ import { useParams, Navigate } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../ContextApi/AuthContext";
-import "./Cart.css";
+import "../styles/cart.css";
 
 function Cart() {
   const { token } = useContext(AuthContext);
@@ -89,28 +89,29 @@ function Cart() {
             </div>
           </div>
 
-          <div
-            style={{
-              minHeight: "100px",
-              width: "60%",
-              backgroundColor: "white",
-              margin: "auto",
-            }}
-          >
+       
+          <div    className="n">
             {data.map((e) => {
               return (
                 <>
-                  <img className="imgproo" src={e.imgOne} alt="img" />
+            
+                  <img className="imageproduct" src={e.imgOne} alt="img" />
 
-                  <br />
-                  <div className="titleProd">{e.title}</div>
-                  <div className="pricepro"> {e.price}</div>
-                  <div className="quanpro"> {e.quantity}</div>
-                  <div className="amtepro"> {e.price}</div>
-                </>
+                
+                  <p className="titleproduct">{e.title}</p>
+                  <p className="priceproduct"> {e.price}</p>
+                  <p className="quantityproduct"> {e.quantity}</p>
+                  <p className="ppriceproduct"> {e.price}</p>
+                
+                  </>
               );
             })}
-          </div>
+            </div>
+         
+         
+        
+
+
         </div>
 
         <div className="pincode">

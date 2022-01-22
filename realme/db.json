@@ -15,20 +15,22 @@
       "imgFourth": "https://image01.realme.net/general/20210624/1624541477696.png"
     },
     {
-      "id": "2",
-      "title": "realme Buds Wireless 2 Neo (Green)",
+      "id": "4",
+      "title": "realme M1 Regular Electric Toothbrush Head(Blue)",
       "color": [
         "Blue",
-        "Black",
-        "Green"
+        "White"
       ],
-      "price": 1299,
-      "quantity": 1,
-      "Configuration": [],
-      "imgOne": "https://image01.realme.net/general/20210715/1626360050747.png",
-      "imgTwo": "https://image01.realme.net/general/20210715/1626360056115.png",
-      "imgThrid": "https://image01.realme.net/general/20210715/1626360061187.png",
-      "imgFourth": "https://image01.realme.net/general/20210715/1626360066702.png"
+      "price": 399,
+      "quantity": "",
+      "Configuration": [
+        "Regular Electric Toothbrush Head",
+        "Sensitive Electric Toothbrush Head"
+      ],
+      "imgOne": "https://image01.realme.net/general/20210125/1611568002181.jpg",
+      "imgTwo": "",
+      "imgThrid": "",
+      "imgFourth": ""
     }
   ]
 }

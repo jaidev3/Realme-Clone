@@ -49,6 +49,7 @@
   padding-top: 20px;
   padding-bottom: 10px;
   background-color: white;
+  margin-left: 271px;
 }
 .pincode1 {
   align-items: left;
@@ -90,7 +91,9 @@
   text-align: left;
 }
 
-
+p.titleProd {
+  margin-top: 33px;
+}
 .titleProd {
   font-size: 16px;
   text-align: initial;
@@ -106,16 +109,42 @@
 .quanpro{
   float: right;
   margin-right: 160px;
-  margin-top: -21px;
+  margin-top: -58px;
 }
 
 .amtepro {
   float: right;
-  margin-right: -110px;
-  margin-top: -21px;
+  margin-right: 44px;
+  margin-top: -58px;
 }
 
 .imgproo{
   float: left;
   width: 12%;
 }
+
+.maindivv{
+  width: 900px;
+  margin-left: 22px;
+}
+
+
+.m{
+  height: 100px;
+  width: 60%;
+  background-color: white;
+  margin: auto;
+}
+
+
+p.pricepro {
+  padding: 12px;
+    /* margin: 24px; */
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-right: 11px;
+}
+
+

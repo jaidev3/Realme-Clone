@@ -1,13 +1,15 @@
 .phonetitle {
     text-align: start;
-    margin-left: 70px;
+    margin-left: 139px;
     display: inline-block;
     font-size: 24px;
     line-height: 36px;
    
     font-weight: 700;
 }
-
+h2.phonetitle{
+  margin-left: -955px;
+}
 
 .submenu{
     display: inline-block;
@@ -46,9 +48,11 @@
     display: flex;
     flex-wrap: nowrap;
     background-color: #f1f1f1;
-    width: 1200px;
-    margin-left: 73px;
+  
+   
     height: 370px;
+    width: 1123px;
+    margin-left: 138px;
   }
   
   .flex-container > div {
