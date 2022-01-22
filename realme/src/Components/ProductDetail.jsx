@@ -4,7 +4,8 @@ import Data from "../ProductData/db.json";
 import Sanpshot from "../image/snapshot.png";
 // import Screenshot from "../image/screenshot.png";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams,Link} from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 
 // let imgs = Data.phonesData;
 // let images;
@@ -14,6 +15,7 @@ import { useParams } from "react-router-dom";
 // const index = 0;
 
 function ProductDetails() {
+  const Navigate = useNavigate();
   const { id } = useParams();
   const [d, setD] = useState([]);
   const da = Data.goneInFlash.filter((e) => e.id === `${id}`);
@@ -32,6 +34,7 @@ function ProductDetails() {
     fetch("http://localhost:3002/cart", requestOptions);
     // axios.post('http://localhost:3002/cart', da)
     console.log(d);
+   
   };
 
   // const [Images, setImages] = useState(index);
@@ -84,7 +87,7 @@ function ProductDetails() {
                     <button id="btn" onClick={handleClick}>
                       Add to Cart
                     </button>
-                    <button>Buy Now</button>
+                  <Link to="/cart"><button onClick={()=>{ <Navigate to="/cart" /> }}>Buy Now</button></Link> 
                   </div>
                 </>
               );
