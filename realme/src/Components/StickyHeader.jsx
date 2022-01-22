@@ -60,7 +60,7 @@ function Sticky() {
             </a>
           </li>
         </ul>
-        <i class="bi bi-search"></i>
+       <Link to="/search"><i class="bi bi-search"></i></Link> 
       </div>
     </>
   );
