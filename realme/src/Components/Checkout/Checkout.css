@@ -1,0 +1,38 @@
+.main {
+  background-color: #f9f9f9;
+  height: 500px;
+}
+.main > div {
+  background-color: #ffffff;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
+  /* gap: 20px; */
+  border: 1px solid red;
+}
+.p-2 div {
+  border: 1px solid black;
+  display: inline;
+}
+
+.p-4 {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.p-4 div {
+  margin: auto 0;
+}
+
+.p-5 > div {
+  width: 300px;
+  margin: 30px auto;
+  margin-left: auto;
+  margin-right: 0;
+}
+.p-5 button {
+  width: 100%;
+  background-color: #efbd14;
+  border: 1px solid #efbd14;
+  height: 40px;
+}

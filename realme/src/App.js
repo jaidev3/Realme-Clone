@@ -13,7 +13,7 @@ import { Checkout } from "./Components/Checkout/Checkout";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
 
       <Routes>
         <Route path="/" element={<Realme />}></Route>
