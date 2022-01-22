@@ -1,0 +1,67 @@
+.main {
+  background-color: #f9f9f9;
+  height: 500px;
+}
+.main > div {
+  background-color: #ffffff;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
+  /* gap: 20px; */
+  /* border: 1px solid red; */
+}
+
+.p-1 {
+  border: 1px solid red;
+}
+
+.address {
+  width: 600px;
+  gap: 10px;
+}
+.address div {
+  margin: 10px auto;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+.address input {
+  padding-left: 15px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid gainsboro;
+}
+.address button {
+  width: 150px;
+  height: 40px;
+}
+.address button:nth-child(1) {
+  border: 1px solid black;
+  background-color: white;
+}
+.address button:nth-child(2) {
+  border: 0px;
+  background-color: #efbd14;
+}
+
+.p-4 {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.p-4 div {
+  margin: auto 0;
+}
+
+.p-5 > div {
+  width: 300px;
+  margin: 30px auto;
+  margin-left: auto;
+  margin-right: 0;
+}
+.p-5 button {
+  width: 100%;
+  background-color: #efbd14;
+  border: 1px solid #efbd14;
+  height: 40px;
+}
