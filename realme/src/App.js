@@ -8,10 +8,11 @@ import Realme from "./Components/realme";
 import Search from "./Components/Search";
 import Product from "./Components/Product";
 import ProductDetails from "./Components/ProductDetail";
+import { Checkout } from "./Components/Checkout/Checkout";
+
 function App() {
   return (
     <div className="App">
-
       <Navbar />
 
       <Routes>
@@ -21,7 +22,7 @@ function App() {
         <Route path="/search" element={<Search />}></Route>
         <Route path="/products" element={<Product />}></Route>
         <Route path="/search/:id" element={<ProductDetails />}></Route>
-
+        <Route path="/checkout" element={<Checkout />}></Route>
       </Routes>
 
       <Footer />

@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Center = styled.div`
   width: 80%;
   margin: auto;
-  
+
   // border: 1px solid red;
 `;
 
