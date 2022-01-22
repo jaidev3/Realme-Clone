@@ -9,6 +9,7 @@ import Search from "./Components/Search";
 import Product from "./Components/Product";
 import ProductDetails from "./Components/ProductDetail";
 import { Checkout } from "./Components/Checkout/Checkout";
+import { Payment } from "./Components/Payment/Payment";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/products" element={<Product />}></Route>
         <Route path="/search/:id" element={<ProductDetails />}></Route>
         <Route path="/checkout" element={<Checkout />}></Route>
+        <Route path="/payment" element={<Payment />}></Route>
       </Routes>
 
       {/* <Footer /> */}
