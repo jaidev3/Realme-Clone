@@ -18,9 +18,9 @@ function Cart() {
       });
   }, []);
   console.log(data);
-  // if (!token) {
-  //   return <Navigate to={"/login"} />;
-  // }
+  if (!token) {
+    return <Navigate to={"/login"} />;
+  }
 
   return (
     <>
