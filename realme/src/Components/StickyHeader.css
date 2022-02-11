@@ -3,9 +3,11 @@
   color: black;
   display: flex;
   z-index: 1;
-  width: 75%;
-  margin: 0 auto;
+  width: 100%;
+  margin: auto;
+  padding-left: 180px;
   height: 50px;
+ 
 }
 .nav .logo {
   font-size: 26px;
@@ -42,6 +44,7 @@ section {
   top: 0;
   width: 100%;
   margin: auto;
+  padding-left: 180px;
 }
 .bi-search {
   margin: 8px 4px;

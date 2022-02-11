@@ -1,76 +1,70 @@
 .bigbox {
-    width: 1288px;
-
-    height: 400px;
-    margin: 32px;
-    background-color: rgba(128, 128, 128, 0.329)
+  width: 80%;
+  margin: auto;
+  margin-bottom:30px;
+  text-align: left;
+  /* background-color: rgba(128, 128, 128, 0.329); */
 }
 
-.imgbox{
-    width: 45%;
-    float: left;
-    padding: 12px;
-    margin-left: 27px;
+.imgbox {
+  width: 50%;
+  padding: 8px;
+  height: 320px;
+}
+.imgbox:hover{
+  width: 50%;
+  padding: 8px;
+  height: 320px;
+  padding-bottom: 10px;
+  padding-top: 6px
 }
 
-.imgbox2{
-    width: 45%;
-    float: left;
-    padding: 12px;
-    margin-left: 27px;
-    height: 341px;
+.imgbox2 {
+  width: 50%;
+  padding: 8px;
+  height: 320px;
+}
+.imgbox2:hover{
+  width: 50%;
+  padding: 8px;
+  height: 320px;
+  padding-bottom: 10px;
+  padding-top: 6px
 }
 
 .centered {
-    position: absolute;
-    top: 103%;
-    font-size: 44px;
-    color: white;
-    line-height: 54px;
-    margin-bottom: 40px;
-    left: 50%;
-  
-  }
-  .centeredd {
-   
-   
-    width: 195px;
-    font-size: 16px;
-    text-align: center;
-  
-    background: 0 0;
-    color: white;
-    line-height: 48px;
-    margin-bottom: 40px;
-   
-    border: 1px solid white;
-    position: absolute;
-    top: 123%;
-    left: 60%;
-  
-    transform: translate(-50%, -50%);
-  }
+  font-size: 40px;
+  color: white;
+}
+.centeredd {
+  width: 195px;
+  font-size: 16px;
+  text-align: center;
+  background: none;
+  color: white;
+  line-height: 48px;
+  margin-bottom: 40px;
+  border: 1px solid white;
+  margin-top: 100px;
+}
 
-  .centeredd:hover {
-    
-    width: 195px;
-    font-size: 16px;
-    text-align: center;
-  
-    background: white;
-    color: black;
-    line-height: 48px;
-    margin-bottom: 40px;
-   
-    border: 1px solid white;
-    position: absolute;
-    top: 123%;
-    left: 60%;
-  
-    transform: translate(-50%, -50%);
-  }
+.centeredd:hover {
+  width: 195px;
+  font-size: 16px;
+  text-align: center;
+  background: white;
+  color: black;
+  line-height: 48px;
+  margin-bottom: 40px;
+  border: 1px solid white;
+  margin-top: 100px;
+}
 .longimg {
-    height: 400px;
-  
- 
+  height: 400px;
+  width: 100%;
+  background-image: url("https://static.realme.net/v2/home/images/pc/1920-28ebebe77b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  vertical-align: middle;
 }

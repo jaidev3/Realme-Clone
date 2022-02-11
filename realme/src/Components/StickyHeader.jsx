@@ -60,7 +60,7 @@ function Sticky() {
             </a>
           </li>
         </ul>
-       <Link to="/search"><i class="bi bi-search"></i></Link> 
+       <Link to="/search"><MegaMenu title={"Products"} /></Link> 
       </div>
     </>
   );

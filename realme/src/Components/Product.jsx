@@ -9,7 +9,7 @@ const Div = styled.div`
 `;
 const Container = styled.div`
   height: 503px;
-  width: 1121px;
+  width: 100%;
   padding: 5px;
 `;
 
@@ -25,12 +25,12 @@ const Item = styled.div`
   background: white;
   text-align: center;
   justify-content: center;
-  margin: 1rem;
+  margin: 5px;
   height: 400px;
-
   &:hover {
-    width: 90%;
+    width: 100%;
   }
+  // background-color: red;
 `;
 const H3 = styled.h3`
   margin: 1rem;
@@ -70,10 +70,10 @@ export default function Products() {
           <div>
             <Carousel
               style={{
-                height: "352px",
-                width: "1121px",
-                padding: "5px",
-                backgroundColor: "white",
+                height: "370px",
+                width: "1221px",
+                padding: "8px",
+                // backgroundColor: "white",
               }}
               breakPoints={breakPoints}
             >
@@ -84,7 +84,7 @@ export default function Products() {
                       <Img src={el.imgOne} alt="img" />
                       <H3>{el.title}</H3>
                       <P>₹ {el.price}</P>
-                      <H4>₹ {el.delprice}</H4>
+                      {/* <H4>₹ {el.delprice}</H4> */}
                     </Item>
                   </div>
                 );
@@ -94,10 +94,11 @@ export default function Products() {
             <h2 className="gone">ONLY HERE</h2>
             <Carousel
               style={{
-                height: "503px",
-                width: "1121px",
+                height: "370px",
+                width: "100%",
                 padding: "5px",
-                backgroundColor: "white",
+                // backgroundColor: "white",
+                marginBottom: "30px",
               }}
               breakPoints={breakPoints}
             >
@@ -108,7 +109,7 @@ export default function Products() {
                       <Img src={el.imgOne} alt="img" />
                       <H3>{el.title}</H3>
                       <P>₹ {el.price}</P>
-                      <H4>₹ {el.delprice}</H4>
+                      {/* <H4>₹ {el.delprice}</H4> */}
                     </Item>
                   </div>
                 );
@@ -117,6 +118,8 @@ export default function Products() {
           </div>
         </Content>
       </Container>
+      
     </Div>
+
   );
 }

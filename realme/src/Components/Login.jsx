@@ -26,7 +26,7 @@ const Login = () => {
         <h1>realme</h1>{" "}
         <div className="box1">
           <h1 className="signin">Sign in</h1>
-          <span>Sign in with password</span>
+          <span>Sign in with Email: <b>eve.holt@reqres.in</b></span>
           <br />
           <br />
           <input  onChange={handleChange}
@@ -68,9 +68,9 @@ const Login = () => {
           <br />
           <br />
           <div className="othersign">
-            <span>Other ways to sign in</span>
+            {/* <span>Other ways to sign in</span> */}
           </div>
-          <img className="imga" src="../images/googl.png" alt="" />
+          {/* <img className="imga" src="../images/googl.png" alt="" /> */}
         </div>
       </div>
       <br />
