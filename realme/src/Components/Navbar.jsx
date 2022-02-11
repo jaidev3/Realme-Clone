@@ -12,6 +12,7 @@ function Navbar() {
           display: "flex",
           justifyContent: "space-around",
           textAlign: "center",
+          backgroundColor: "white",
         }}
       >
         <div
@@ -49,7 +50,7 @@ function Navbar() {
           </Link>
         </div>
       </div>
-      <hr />
+      <hr style={{padding: "0",margin: "0"}}/>
       <Sticky />
     </>
   );
