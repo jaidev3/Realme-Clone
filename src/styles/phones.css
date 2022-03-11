@@ -5,8 +5,7 @@
   line-height: 36px;
   font-weight: 700;
   width: 80%;
-  margin-left:150px;
-  margin-top:30px;
+  margin: auto;
 }
 
 .submenu {
@@ -20,6 +19,8 @@
 
 .startbox {
   text-align: start;
+  width: 100%;
+  margin: auto;
   /* background-color: #dd0b25; */
 }
 
@@ -33,7 +34,7 @@
 
 .phoneflex > div {
   background-color: white;
-  width: 230px;
+  width: 300px;
   margin: 10px;
   text-align: center;
   line-height: 75px;
@@ -42,15 +43,15 @@
 
 .flex-container {
   display: flex;
-  flex-wrap: nowrap;
-  width: 80%;
+  width: 100%;
+  justify-content: center;
   height: 370px;
   margin: auto;
 }
 
 .flex-container > div {
   background-color: white;
-  width: 280px;
+  width: 19%;
   margin: 10px;
   text-align: center;
   line-height: 31px;

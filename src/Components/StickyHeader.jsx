@@ -56,7 +56,7 @@ function Sticky() {
           </li>
         </ul>
         <Link to="/search">
-          <MegaMenu title={"Products"} />
+          <MegaMenu title={"Click for all Products list"} />
         </Link>
       </div>
     </>

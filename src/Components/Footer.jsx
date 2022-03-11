@@ -1,104 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-const Center = styled.div`
-  width: 80%;
-  margin: auto;
-
-  // border: 1px solid red;
-`;
-
-const Top = styled.div`
-  text-align: center;
-  display: block;
-`;
-
-const Flex = styled.div`
-  display: flex;
-`;
-const TopContainer = styled.div`
-  // background: blue;
-  width: 80%;
-  margin: auto;
-`;
-const TopItem = styled.p`
-  text-align: center;
-  margin: 0.5rem 3.5rem;
-  padding: 1rem;
-  // border: 1px solid red;
-`;
-
-const P = styled.p`
-  text-align: left;
-  margin: 0.5rem 2rem;
-  padding: 1rem;
-`;
-const FlexItem = styled.div`
-  display: flex;
-  margin: 0.2rem 3.5rem;
-  border: 1px solid black;
-  width: 140px;
-  height: 34px;
-  text-center: center;
-  &:hover {
-    background: black;
-    color: white;
-  }
-`;
-
-const CenterBox = styled.div`
-  text-align: center;
-`;
-
-const M = styled.div`
-  margin: 0 0.5rem;
-  padding: 0 0.2rem 0 0;
-  font-size: 22px;
-`;
-const CenterP = styled.div`
-  margin: 0.2rem 0;
-`;
-const SocialMediaIcon = styled.div`
-  display: flex;
-  margin: 1rem 3rem;
-`;
-
-const I = styled.div`
-  text-align: center;
-  background: black;
-  margin: 0.2rem;
-  color: white;
-  width: 30px;
-  height: 30px;
-  // padding: 0.4rem;
-  border: 1px solid black;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 1rem;
-`;
-
-const Hr = styled.hr`
-  background: black;
-  width: 93%;
-`;
-const Bottom = styled.p`
-  float: left;
-  margin: 0 3rem;
-`;
-const Left = styled.p`
-  margin: 0px 2.8rem;
-  float: left;
-`;
-const Right = styled.p`
-  margin: 0px 2.8rem;
-  justify-content: right;
-  float: right;
-`;
-
-const SizeOfIcon = styled.div`
-  font-size: 40px;
-`;
-
 export default function Footer() {
   return (
     <div>
@@ -219,3 +121,102 @@ export default function Footer() {
     </div>
   );
 }
+
+const Center = styled.div`
+  width: 100%;
+  margin: auto;
+`;
+
+const Top = styled.div`
+  text-align: center;
+  display: block;
+`;
+
+const Flex = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+const TopContainer = styled.div`
+  //background: blue;
+  width: 100%;
+  margin: auto;
+`;
+const TopItem = styled.p`
+  text-align: center;
+  margin: 0.5rem 3.5rem;
+  padding: 1rem;
+  // border: 1px solid red;
+`;
+
+const P = styled.p`
+  text-align: left;
+  margin: 0.5rem 2rem;
+  padding: 1rem;
+  height: 380px;
+`;
+const FlexItem = styled.div`
+  display: flex;
+  margin: 0.2rem 3.5rem;
+  border: 1px solid black;
+  width: 140px;
+  height: 34px;
+
+  &:hover {
+    background: black;
+    color: white;
+  }
+`;
+
+const CenterBox = styled.div`
+  text-align: center;
+`;
+
+const M = styled.div`
+  margin: 0 0.5rem;
+  padding: 0 0.2rem 0 0;
+  font-size: 22px;
+`;
+const CenterP = styled.div`
+  margin: 0.2rem 0;
+`;
+const SocialMediaIcon = styled.div`
+  display: flex;
+  margin: 1rem 3rem;
+`;
+
+const I = styled.div`
+  text-align: center;
+  background: black;
+  margin: 0.2rem;
+  color: white;
+  width: 30px;
+  height: 30px;
+  // padding: 0.4rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1rem;
+`;
+
+const Hr = styled.hr`
+  background: black;
+  width: 93%;
+`;
+const Bottom = styled.p`
+  float: left;
+  margin: 0 3rem;
+`;
+const Left = styled.p`
+  margin: 0px 2.8rem;
+  float: left;
+`;
+const Right = styled.p`
+  margin: 0px 2.8rem;
+  justify-content: right;
+  float: right;
+`;
+
+const SizeOfIcon = styled.div`
+  font-size: 40px;
+`;

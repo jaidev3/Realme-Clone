@@ -2,7 +2,7 @@ import "../Styles/Phones.css";
 
 export const Phones = () => {
   return (
-    <div>
+    <>
       <div className="startbox">
         <h2 className="phonetitle">SmartPhones</h2>
         &nbsp;
@@ -277,7 +277,7 @@ export const Phones = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

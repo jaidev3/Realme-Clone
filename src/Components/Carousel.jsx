@@ -1,7 +1,7 @@
 import { Carousel } from "antd";
 const contentStyle = {
   height: "700px",
-  width: "110%",
+  width: "100%",
 };
 
 export function Carouse() {

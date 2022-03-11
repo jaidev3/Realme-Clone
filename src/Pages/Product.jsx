@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import data from "../ProductData/db.json";
 import styled from "styled-components";
 import Carousel from "react-elastic-carousel";
@@ -14,21 +15,21 @@ export default function Products() {
             <Carousel
               style={{
                 height: "370px",
-                width: "1221px",
+                width: "100%",
                 padding: "8px",
-                // backgroundColor: "white",
               }}
               breakPoints={breakPoints}
             >
               {data.goneInFlash.map((el, i) => {
                 return (
                   <div key={i}>
-                    <Item>
-                      <Img src={el.imgOne} alt="img" />
-                      <H3>{el.title}</H3>
-                      <P>₹ {el.price}</P>
-                      {/* <H4>₹ {el.delprice}</H4> */}
-                    </Item>
+                    <Link to={`/search/${el.id}`}>
+                      <Item>
+                        <Img src={el.imgOne} alt="img" />
+                        <H3>{el.title}</H3>
+                        <P>₹ {el.price}</P>
+                      </Item>
+                    </Link>
                   </div>
                 );
               })}
@@ -40,32 +41,32 @@ export default function Products() {
                 height: "370px",
                 width: "100%",
                 padding: "5px",
-                // backgroundColor: "white",
                 marginBottom: "30px",
               }}
               breakPoints={breakPoints}
             >
-              {data.onlyHere.map((el, i) => {
+              {data.goneInFlash.map((el, i) => {
                 return (
                   <div key={i}>
-                    <Item>
-                      <Img src={el.imgOne} alt="img" />
-                      <H3>{el.title}</H3>
-                      <P>₹ {el.price}</P>
-                      {/* <H4>₹ {el.delprice}</H4> */}
-                    </Item>
+                    <Link to={`/search/${el.id}`}>
+                      <Item>
+                        <Img src={el.imgOne} alt="img" />
+                        <H3>{el.title}</H3>
+                        <P>₹ {el.price}</P>
+                      </Item>
+                    </Link>
                   </div>
                 );
               })}
             </Carousel>
           </div>
         </Content>
-      </Container>  
+      </Container>
     </Div>
   );
 }
 
-
+//////////Styled Components////////////////
 const Div = styled.div`
   width: 80%;
   margin: auto;
@@ -81,19 +82,21 @@ const Img = styled.img`
   margin: 1.5rem;
 `;
 const Content = styled.div`
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+  display: flex;
+  flex-direction: column;
 `;
 const Item = styled.div`
   background: white;
   text-align: center;
   justify-content: center;
-  margin: 5px;
+  margin: 5%;
   height: 400px;
-  &:hover {
-    width: 100%;
+  width: 300px;
+  border-radius: 4px;
+  :hover {
+    padding: 3px;
+    /* box-shadow: 1px 1px 1px 1px grey; */
   }
-  // background-color: red;
 `;
 const H3 = styled.h3`
   margin: 1rem;
