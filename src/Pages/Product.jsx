@@ -3,63 +3,6 @@ import data from "../ProductData/db.json";
 import styled from "styled-components";
 import Carousel from "react-elastic-carousel";
 import "../Styles/Elastic.css";
-const Div = styled.div`
-  width: 80%;
-  margin: auto;
-`;
-const Container = styled.div`
-  height: 503px;
-  width: 100%;
-  padding: 5px;
-`;
-
-const Img = styled.img`
-  width: 60%;
-  margin: 1.5rem;
-`;
-const Content = styled.div`
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-`;
-const Item = styled.div`
-  background: white;
-  text-align: center;
-  justify-content: center;
-  margin: 5px;
-  height: 400px;
-  &:hover {
-    width: 100%;
-  }
-  // background-color: red;
-`;
-const H3 = styled.h3`
-  margin: 1rem;
-  font-size: 15px;
-  font-weight: 300;
-`;
-const P = styled.p`
-  color: red;
-  margin: 1rem;
-`;
-
-const H4 = styled.h4`
-  text-decoration: line-through;
-  text-align: center;
-  color: #777;
-  font-size: 14px;
-`;
-const div = styled.div`
-  height: 503px;
-  width: 1121px;
-  padding: 5px;
-`;
-
-const breakPoints = [
-  { width: 1, itemsToShow: 4 },
-  { width: 550, itemsToShow: 3 },
-  { width: 500, itemsToShow: 2 },
-  { width: 700, itemsToShow: 4 },
-];
 
 export default function Products() {
   return (
@@ -117,9 +60,66 @@ export default function Products() {
             </Carousel>
           </div>
         </Content>
-      </Container>
-      
+      </Container>  
     </Div>
-
   );
 }
+
+
+const Div = styled.div`
+  width: 80%;
+  margin: auto;
+`;
+const Container = styled.div`
+  height: 503px;
+  width: 100%;
+  padding: 5px;
+`;
+
+const Img = styled.img`
+  width: 60%;
+  margin: 1.5rem;
+`;
+const Content = styled.div`
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+`;
+const Item = styled.div`
+  background: white;
+  text-align: center;
+  justify-content: center;
+  margin: 5px;
+  height: 400px;
+  &:hover {
+    width: 100%;
+  }
+  // background-color: red;
+`;
+const H3 = styled.h3`
+  margin: 1rem;
+  font-size: 15px;
+  font-weight: 300;
+`;
+const P = styled.p`
+  color: red;
+  margin: 1rem;
+`;
+
+const H4 = styled.h4`
+  text-decoration: line-through;
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+`;
+const div = styled.div`
+  height: 503px;
+  width: 1121px;
+  padding: 5px;
+`;
+
+const breakPoints = [
+  { width: 1, itemsToShow: 4 },
+  { width: 550, itemsToShow: 3 },
+  { width: 500, itemsToShow: 2 },
+  { width: 700, itemsToShow: 4 },
+];

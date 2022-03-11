@@ -2,9 +2,6 @@ import Sticky from "./StickyHeader";
 import { Link } from "react-router-dom";
 
 function Navbar() {
-  const linkdecor = {
-    textDecoration: "none",
-  };
   return (
     <>
       <div
@@ -26,7 +23,7 @@ function Navbar() {
             wordSpacing: "8px",
           }}
         >
-          realmeow | Brand | Support | Community | App | Bulk Order | UI 3.0
+          Realme | Brand | Support | Community | App | Bulk Order | UI 3.0
         </div>
         <div
           style={{
@@ -50,7 +47,7 @@ function Navbar() {
           </Link>
         </div>
       </div>
-      <hr style={{padding: "0",margin: "0"}}/>
+      <hr style={{ padding: "0", margin: "0" }} />
       <Sticky />
     </>
   );

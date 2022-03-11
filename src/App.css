@@ -49,3 +49,14 @@ body{
 .sticky + .content {
   padding-top: 60px;
 }
+.paginationBttns {
+  list-style: none;
+  display: flex;
+  margin: auto;
+  gap: 5px;
+  cursor: pointer;
+  justify-content: space-around;
+  width: 80%;
+  padding: 20px;
+  z-index: 100;
+}

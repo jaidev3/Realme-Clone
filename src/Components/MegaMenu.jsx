@@ -1,4 +1,5 @@
 import "../Styles/MegaMenu.css";
+import {Link} from 'react-router-dom'
 import Data from "../ProductData/db.json";
 function MegaMenu({ title }) {
   return (
@@ -11,7 +12,7 @@ function MegaMenu({ title }) {
         <div class="dropdown-content">
           <div class="row">
             <div class="column">
-              {Data.phones.map((el, i) => {
+              {Data.goneInFlash.map((el, i) => {
                 return (
                   <div key={i}>
                     <div className="Item">

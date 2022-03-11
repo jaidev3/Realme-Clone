@@ -26,17 +26,17 @@ function Sticky() {
         <ul>
           <li>
             <a href="#">
-              <MegaMenu title={"realme Smartphones"} />
+              <MegaMenu title={"Realme Smartphones"} />
             </a>
           </li>
           <li>
             <a href="#">
-              <MegaMenu title={"narzo Smartphones"} />
+              <MegaMenu title={"Narzo Smartphones"} />
             </a>
           </li>
           <li>
             <a href="#">
-              <MegaMenu title={"realme TV"} />
+              <MegaMenu title={"Realme TV"} />
             </a>
           </li>
           <li>
@@ -49,18 +49,15 @@ function Sticky() {
               <MegaMenu title={"Audio"} />
             </a>
           </li>
-          {/* <li>
-            <a href="#">
-              <MegaMenu title={"Smart Life"} />
-            </a>
-          </li> */}
           <li>
             <a href="#">
               <MegaMenu title={"Accessories & Lifestyle"} />
             </a>
           </li>
         </ul>
-       <Link to="/search"><MegaMenu title={"Products"} /></Link> 
+        <Link to="/search">
+          <MegaMenu title={"Products"} />
+        </Link>
       </div>
     </>
   );
