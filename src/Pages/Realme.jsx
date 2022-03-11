@@ -1,7 +1,7 @@
-import { Carouse } from "./Carousel";
-import "../styles/activity.css";
+import { Carouse } from "../Components/Carousel";
+import "../Styles/Activity.css";
 import Product from "./Product";
-import Activity from "./Activity";
+import Activity from "../Components/Activity";
 import Phone from "./Phones";
 function Realme() {
   return (

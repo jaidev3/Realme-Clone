@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
 const Div = styled.div`
-  dislplay: flex;
+  display: flex;
 `;
 
 export default function Pagination({ perPage, OnPaginationChange, total }) {

@@ -1,7 +1,7 @@
-import "./Productdetails.css";
+import "../Styles/Productdetails.css";
 import axios from "axios";
 import Data from "../ProductData/db.json";
-import Sanpshot from "../image/snapshot.png";
+import Sanpshot from "../Images/snapshot.png";
 // import Screenshot from "../image/screenshot.png";
 import { useState, useEffect } from "react";
 import { useParams,Link} from "react-router-dom";

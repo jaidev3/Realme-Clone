@@ -1,71 +1,91 @@
-.imgprod {
+.cartmain {
+  min-height: 600px;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding-top: 40px;
+}
+
+.carttitle {
+  height: 100px;
   width: 60%;
-  margin-top: 36px;
+  margin: auto;
+  padding-top: 20px;
+  background-color: white;
+
+  text-align: left;
+
+  padding-left: 40px;
 }
 
-.row {
+.cartheader {
   display: flex;
-  flex-wrap: nowrap;
-
-  float: left;
-  padding: 8px;
-  margin: 6px;
+  flex-direction: row;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+}
+.cartheader > div {
+  display: flex;
+  flex-direction: row;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.cartheader1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
 }
 
-.he {
-  text-align: start;
-  margin-left: 26px;
-  font-size: 24px;
+.pincode {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10px;
+  width: 60%;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: white;
 }
-.pri {
-  font-size: 18px;
-  line-height: 20px;
-  color: #dd0b25;
+.pincode1 {
+  align-items: left;
+  text-align: left;
 }
-
-.delpri {
-  text-decoration: line-through;
-  text-align: center;
-  color: #777;
-  font-size: 14px;
+.pincode > p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
 }
-
-.col {
-  font-size: 14px;
-  line-height: 16px;
-  margin: 10px 0 20px;
+.pincode input {
+  width: 300px;
+  height: 40px;
 }
-.row > .prod-img {
-  background-color: #f1f1f1;
-
-  margin: 10px;
-  text-align: center;
-  line-height: 10px;
-  font-size: 10px;
-  align-items: center;
-  width: 289px;
-  height: 385px;
+.pincode button {
+  width: 200px;
+  height: 40px;
+  background-color: #ffc915;
+  border: none;
 }
 
-.row > .tit {
-  font-size: 16px;
-  line-height: 20px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-align: center;
-  font-weight: 600;
-}
+.cartitems {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 10px;
 
-.titt {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 16px;
-  line-height: 20px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-align: center;
-  font-weight: 600;
+  width: 60%;
+  background-color: white;
+  padding: 20px 60px;
+}
+.cartitems1 button {
+  width: 200px;
+  height: 40px;
+  background-color: #ffc915;
+  border: none;
+}
+.cartitems1 {
+  text-align: left;
 }

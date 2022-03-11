@@ -1,19 +1,19 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
-import Login from "./Components/Login";
-import Cart from "./Components/Cart";
+import Login from "./Pages/Login";
+import Cart from "./Pages/Cart";
 import Footer from "./Components/Footer";
-import Realme from "./Components/realme";
+import Realme from "./Pages/Realme";
 import Search from "./Components/Search";
-import Product from "./Components/Product";
-import ProductDetails from "./Components/ProductDetail";
-import { Checkout } from "./Components/Checkout/Checkout";
+import Product from "./Pages/Product";
+import ProductDetails from "./Pages/ProductDetail";
+import { Checkout } from "./Pages/Checkout";
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
+      <Navbar />
 
       <Routes>
         <Route path="/" element={<Realme />}></Route>
@@ -25,7 +25,7 @@ function App() {
         <Route path="/checkout" element={<Checkout />}></Route>
       </Routes>
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

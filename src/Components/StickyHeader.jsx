@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./StickyHeader.css";
+import "../Styles/StickyHeader.css";
 import MegaMenu from "./MegaMenu";
-import logo from "../image/realmeimg.svg";
+import logo from "../Images/realmeimg.svg";
 function Sticky() {
   const [sticky1, setSticky] = useState("");
 

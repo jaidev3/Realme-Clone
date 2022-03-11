@@ -1,8 +1,8 @@
-import { useParams, Navigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../ContextApi/AuthContext";
-import "./Cart.css";
+import "../Styles/Cart.css";
 
 function Cart() {
   const { token } = useContext(AuthContext);

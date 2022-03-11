@@ -1,0 +1,87 @@
+.details {
+  display: flex;
+  width: 77%;
+  margin: auto;
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  margin-left: 70%;
+}
+.data {
+  width: 77%;
+  margin: auto;
+  display: flex;
+}
+
+.data .left_data {
+  /* background-color: blueviolet; */
+  width: 48%;
+  margin: 1%;
+  margin: auto;
+}
+
+.data .left_data img {
+  width: 300px;
+}
+.data .thumb {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+.data .thumb img {
+  width: 100px;
+}
+.data .right_data {
+  /* background-color: rgb(226, 43, 43); */
+  width: 48%;
+  margin: 1%;
+  text-align: left;
+}
+
+.color {
+  background-color: rgba(255, 0, 0, 0.226);
+  padding: 0.2rem;
+}
+.data .right_data img {
+  width: 500px;
+}
+
+.data .right_data p {
+  border: 1px solid black;
+  width: 110px;
+  padding: 0.1rem 2rem;
+  text-align: center !important;
+  font-size: 20px;
+}
+
+.data .right_data .quan {
+  display: flex;
+  border: 1px solid black;
+  padding: 0px !important;
+  width: 250px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.data .right_data .quan p {
+  border: none !important;
+}
+
+.data .right_data button {
+  margin: 20px 20px 0px 0px;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  background: #ffc915;
+  border: 1px solid #ffc915;
+}
+
+.data .right_data #btn {
+  background-color: white;
+  border: 1px solid black;
+}

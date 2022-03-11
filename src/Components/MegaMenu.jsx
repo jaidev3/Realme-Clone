@@ -1,4 +1,4 @@
-import "./MegaMenu.css";
+import "../Styles/MegaMenu.css";
 import Data from "../ProductData/db.json";
 function MegaMenu({ title }) {
   return (

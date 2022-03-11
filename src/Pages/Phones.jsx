@@ -1,4 +1,4 @@
-import "../styles/phones.css";
+import "../Styles/Phones.css";
 
 export const Phones = () => {
   return (

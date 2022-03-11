@@ -2,7 +2,7 @@ import React from "react";
 import data from "../ProductData/db.json";
 import styled from "styled-components";
 import Carousel from "react-elastic-carousel";
-import "../styles/elastic.css";
+import "../Styles/Elastic.css";
 const Div = styled.div`
   width: 80%;
   margin: auto;

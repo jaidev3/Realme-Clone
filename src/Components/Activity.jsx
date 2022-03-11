@@ -1,4 +1,4 @@
-import "../styles/activity.css"
+import "../Styles/Activity.css"
 
 export const Activity =  () =>
 {
