@@ -2,7 +2,7 @@ import { Carouse } from "../Components/Carousel";
 import "../Styles/Activity.css";
 import Product from "./Product";
 import Activity from "../Components/Activity";
-import Phone from "./Phones";
+import Phone from "../Components/Phones";
 
 export default function Realme() {
   return (

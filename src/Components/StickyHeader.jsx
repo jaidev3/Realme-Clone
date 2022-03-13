@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
 import "../Styles/StickyHeader.css";
 import MegaMenu from "./MegaMenu";
 import logo from "../Images/realmeimg.svg";
+
 function Sticky() {
+
   const [sticky1, setSticky] = useState("");
 
   const onScroll = () => {
@@ -21,7 +24,6 @@ function Sticky() {
         <div className="logo">
           <Link to="/">
             <img src={logo} alt="" />
-            click to go back home
           </Link>
         </div>
         <ul>
@@ -57,7 +59,7 @@ function Sticky() {
           </li>
         </ul>
         <Link to="/search">
-          <MegaMenu title={"Click for all Products list"} />
+          <MegaMenu title={"Search"} />
         </Link>
       </div>
     </>

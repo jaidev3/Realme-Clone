@@ -6,10 +6,6 @@ export const Phones = () => {
       <div className="startbox">
         <h2 className="phonetitle">SmartPhones</h2>
         &nbsp;
-        {/* <p className="submenu">
-          Recommended &nbsp;&nbsp;&nbsp;
-          New&nbsp;Launches&nbsp;&nbsp;&nbsp;Best&nbsp;Sellers&nbsp;
-        </p> */}
       </div>
 
       <div class="flex-container">

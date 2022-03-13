@@ -5,7 +5,7 @@ import Login from "./Pages/Login";
 import Cart from "./Pages/Cart";
 import Footer from "./Components/Footer";
 import Realme from "./Pages/Realme";
-import Search from "./Components/Search";
+import Search from "./Pages/SearchProduct";
 import Product from "./Pages/Product";
 import ProductDetails from "./Pages/ProductDetail";
 import { Checkout } from "./Pages/Checkout";

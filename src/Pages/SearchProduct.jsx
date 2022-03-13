@@ -25,7 +25,7 @@ export default function Products() {
             <H4>Sales</H4>
             <H4>
               <Select>
-                <select default="Price">
+                <select default="Price" >
                   <option>Price</option>
                   <option>Low</option>
                   <option>High</option>
