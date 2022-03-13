@@ -21,6 +21,7 @@ function Sticky() {
         <div className="logo">
           <Link to="/">
             <img src={logo} alt="" />
+            click to go back home
           </Link>
         </div>
         <ul>
