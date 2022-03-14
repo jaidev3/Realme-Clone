@@ -95,7 +95,6 @@ const Item = styled.div`
   border-radius: 4px;
   :hover {
     padding: 3px;
-    /* box-shadow: 1px 1px 1px 1px grey; */
   }
 `;
 const H3 = styled.h3`
@@ -107,19 +106,6 @@ const P = styled.p`
   color: red;
   margin: 1rem;
 `;
-
-const H4 = styled.h4`
-  text-decoration: line-through;
-  text-align: center;
-  color: #777;
-  font-size: 14px;
-`;
-const div = styled.div`
-  height: 503px;
-  width: 1121px;
-  padding: 5px;
-`;
-
 const breakPoints = [
   { width: 1, itemsToShow: 4 },
   { width: 550, itemsToShow: 3 },

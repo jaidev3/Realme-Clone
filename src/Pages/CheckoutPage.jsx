@@ -1,5 +1,5 @@
 import "../Styles/Checkout.css";
-
+import { Link } from "react-router-dom";
 export const Checkout = () => {
   return (
     <>
@@ -65,7 +65,9 @@ export const Checkout = () => {
             <p>Shipping</p>
             <hr />
             <p>Total :</p>
-            <button>Place Order</button>
+            <Link to='/payment'>
+              <button>Place Order</button>
+            </Link>
           </div>
         </div>
       </div>

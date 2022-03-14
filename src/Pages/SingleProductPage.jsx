@@ -1,18 +1,9 @@
 import "../Styles/Productdetails.css";
-import axios from "axios";
 import Data from "../ProductData/db.json";
 import Sanpshot from "../Images/snapshot.png";
-// import Screenshot from "../image/screenshot.png";
 import { useState, useEffect } from "react";
 import { useParams,Link} from "react-router-dom";
 import { useNavigate} from "react-router-dom";
-
-// let imgs = Data.phonesData;
-// let images;
-// for (let i = 0; i < imgs.length; i++) {
-//   images = imgs[i].src;
-// }
-// const index = 0;
 
 function ProductDetails() {
   const Navigate = useNavigate();
@@ -23,7 +14,7 @@ function ProductDetails() {
   useEffect(() => {
     setD(da);
     console.log(da[0]);
-  }, []);
+  }, [da]);
 
   const handleClick = () => {
     const requestOptions = {
@@ -32,16 +23,9 @@ function ProductDetails() {
       body: JSON.stringify(d[0]),
     };
     fetch("http://localhost:3002/cart", requestOptions);
-    // axios.post('http://localhost:3002/cart', da)
     console.log(d);
    
   };
-
-  // const [Images, setImages] = useState(index);
-
-  // const ImageClick = (index) => {
-  //   setImages(index);
-  // };
 
   return (
     <>

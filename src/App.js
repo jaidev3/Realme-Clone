@@ -1,14 +1,15 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
-import Login from "./Pages/Login";
-import Cart from "./Pages/Cart";
+import Login from "./Pages/LoginPage";
+import Cart from "./Pages/CartPage";
 import Footer from "./Components/Footer";
-import Realme from "./Pages/Realme";
-import Search from "./Pages/SearchProduct";
-import Product from "./Pages/Product";
-import ProductDetails from "./Pages/ProductDetail";
-import { Checkout } from "./Pages/Checkout";
+import Realme from "./Pages/RealmeHomePage";
+import PaymentPage from "./Pages/PaymentPage";
+import Search from "./Pages/SearchProductPage";
+import Product from "./Components/ProductSectionHome";
+import ProductDetails from "./Pages/SingleProductPage";
+import { Checkout } from "./Pages/CheckoutPage";
 
 function App() {
   return (
@@ -23,8 +24,8 @@ function App() {
         <Route path="/products" element={<Product />}></Route>
         <Route path="/search/:id" element={<ProductDetails />}></Route>
         <Route path="/checkout" element={<Checkout />}></Route>
+        <Route path="/payment" element={<PaymentPage />}></Route>
       </Routes>
-
       <Footer />
     </div>
   );

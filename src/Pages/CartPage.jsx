@@ -85,7 +85,7 @@ function Cart() {
               </p>
             </div>
             <div>
-              <button>Place Order</button>
+              <Link to='/checkout'><button>Place Order</button></Link>
             </div>
           </div>
         </div>

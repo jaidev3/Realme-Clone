@@ -1,7 +1,7 @@
-import "../Styles/MegaMenu.css";
+import "../Styles/DropdownNavebar.css";
 import { Link } from "react-router-dom";
 import Data from "../ProductData/db.json";
-function MegaMenu({ title }) {
+function DropdownMenu({ title }) {
   return (
     <>
       <div class="dropdown">
@@ -39,4 +39,4 @@ function MegaMenu({ title }) {
   );
 }
 
-export default MegaMenu;
+export default DropdownMenu;
