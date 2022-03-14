@@ -1,7 +1,7 @@
 .bigbox {
   width: 80%;
   margin: auto;
-  margin-bottom:30px;
+  margin-bottom: 30px;
   text-align: left;
   /* background-color: rgba(128, 128, 128, 0.329); */
 }
@@ -11,12 +11,12 @@
   padding: 8px;
   height: 320px;
 }
-.imgbox:hover{
+.imgbox:hover {
   width: 50%;
   padding: 8px;
   height: 320px;
   padding-bottom: 10px;
-  padding-top: 6px
+  padding-top: 6px;
 }
 
 .imgbox2 {
@@ -24,12 +24,12 @@
   padding: 8px;
   height: 320px;
 }
-.imgbox2:hover{
+.imgbox2:hover {
   width: 50%;
   padding: 8px;
   height: 320px;
   padding-bottom: 10px;
-  padding-top: 6px
+  padding-top: 6px;
 }
 
 .centered {

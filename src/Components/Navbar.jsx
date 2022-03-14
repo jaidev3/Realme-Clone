@@ -81,4 +81,5 @@ const Wrapper = styled.div`
 const Navwidth = styled.div`
   background-color: white;
   border: #eeeeee 1px solid;
+  width: 100%;
 `;

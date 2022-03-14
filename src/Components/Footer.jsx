@@ -125,6 +125,7 @@ export default function Footer() {
 const Center = styled.div`
   width: 100%;
   margin: auto;
+  background: #ffffff;
 `;
 
 const Top = styled.div`

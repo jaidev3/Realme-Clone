@@ -3,8 +3,9 @@ import data from "../ProductData/db.json";
 import styled from "styled-components";
 import ReactPaginate from "react-paginate";
 import { Link } from "react-router-dom";
+import { BsSearch } from "react-icons/bs";
 
-export default function Products() {
+function Products() {
   ////////////pagination////////////////
   const [pageNumber, setPageNumber] = useState(0);
   const usersPerPage = 12;
@@ -18,6 +19,15 @@ export default function Products() {
   return (
     <div>
       <Div>
+        <div className="search">
+          <Input>
+            <input></input>
+            <div>
+              <BsSearch />
+            </div>
+          </Input>
+        </div>
+
         <Container>
           <FlexItem>
             <H4>All</H4>
@@ -25,7 +35,7 @@ export default function Products() {
             <H4>Sales</H4>
             <H4>
               <Select>
-                <select default="Price" >
+                <select default="Price">
                   <option>Price</option>
                   <option>Low</option>
                   <option>High</option>
@@ -68,9 +78,16 @@ export default function Products() {
   );
 }
 
+export default Products;
+
 //////////Styled Components////////////
 const Div = styled.div`
   background: #f4f4f5;
+  .search {
+    background-color: white;
+    height: 100px;
+    padding-top: 20px;
+  }
 `;
 const Container = styled.div`
   width: 80%;
@@ -126,4 +143,21 @@ const Select = styled.div`
   height: 20px;
   width: 80px;
   outline: none;
+`;
+const Input = styled.div`
+  display: flex;
+  align-items: center;
+  align-self: center;
+  border: 2px solid #ffc915;
+  width: 25%;
+  margin: auto;
+  border-radius: 25px;
+  input {
+    border: none;
+    border-radius: 25px;
+    width: 85%;
+    padding: 4px;
+    outline: none;
+    background: none;
+  }
 `;

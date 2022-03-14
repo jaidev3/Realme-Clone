@@ -4,9 +4,9 @@ import styled from "styled-components";
 import "../Styles/StickyHeader.css";
 import MegaMenu from "./MegaMenu";
 import logo from "../Images/realmeimg.svg";
+import { BsSearch } from "react-icons/bs";
 
 function Sticky() {
-
   const [sticky1, setSticky] = useState("");
 
   const onScroll = () => {
@@ -20,47 +20,56 @@ function Sticky() {
 
   return (
     <>
-      <div className={`nav ${sticky1}`}>
-        <div className="logo">
-          <Link to="/">
-            <img src={logo} alt="" />
-          </Link>
+      <div className={`${sticky1}`}>
+        <div className={`nav`}>
+          <div className="logo">
+            <Link to="/">
+              <img src={logo} alt="" />
+            </Link>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <MegaMenu title={"Realme Smartphones"} />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <MegaMenu title={"Narzo Smartphones"} />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <MegaMenu title={"Realme TV"} />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <MegaMenu title={"Laptop & Tablet"} />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <MegaMenu title={"Audio"} />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <MegaMenu title={"Smart Life"} />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <MegaMenu title={"Accessories & Lifestyle"} />
+              </a>
+            </li>
+          </ul>
+          <div className="search">
+            <Link to="/search">
+              <BsSearch />
+            </Link>
+          </div>
         </div>
-        <ul>
-          <li>
-            <a href="#">
-              <MegaMenu title={"Realme Smartphones"} />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <MegaMenu title={"Narzo Smartphones"} />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <MegaMenu title={"Realme TV"} />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <MegaMenu title={"Laptop & Tablet"} />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <MegaMenu title={"Audio"} />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <MegaMenu title={"Accessories & Lifestyle"} />
-            </a>
-          </li>
-        </ul>
-        <Link to="/search">
-          <MegaMenu title={"Search"} />
-        </Link>
       </div>
     </>
   );

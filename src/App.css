@@ -1,4 +1,4 @@
-body{
+body {
   background-color: rgb(248, 246, 246);
 }
 .App {
@@ -32,7 +32,7 @@ body{
 }
 
 #navbar a.active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
 }
 
