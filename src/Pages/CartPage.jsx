@@ -7,11 +7,12 @@ import { CartContext } from "../ContextApi/CartContext";
 import "../Styles/Cart.css";
 
 function Cart() {
+  const { total, count, cart } = useContext(CartContext);
   const { token } = useContext(AuthContext);
   if (!token) {
     return <Navigate to={"/login"} />;
   }
-  const { total, count, cart } = useContext(CartContext);
+  
 
   return (
     <>
