@@ -260,7 +260,8 @@
       "imgTwo": "https://image01.realme.net/general/20210316/1615905320493.jpg",
       "imgThrid": "",
       "imgFourth": ""
-    },{
+    },
+    {
       "id": "21",
       "title": "realme C21Y (Cross Black, 3GB+32GB)",
       "price": 9499,
@@ -367,7 +368,8 @@
       "imgTwo": "https://image01.realme.net/general/20210506/1620287407432.png",
       "imgThrid": "https://image01.realme.net/general/20210506/1620287412450.png",
       "imgFourth": "https://image01.realme.net/general/20210506/1620287415972.png"
-    }, {
+    },
+    {
       "id": "29",
       "title": "realme Micro-USB Cable (Black and Yellow)",
       "price": 249,
@@ -535,6 +537,4 @@
       "imgFourth": "https://image01.realme.net/general/20210604/1622779368270.png"
     }
   ]
-
- 
 }

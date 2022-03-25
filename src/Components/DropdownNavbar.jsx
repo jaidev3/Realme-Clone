@@ -4,14 +4,14 @@ import Data from "../ProductData/db.json";
 function DropdownMenu({ title }) {
   return (
     <>
-      <div class="dropdown">
-        <button class="dropbtn">
+      <div className="dropdown">
+        <button className="dropbtn">
           {title}
-          <i class="fa fa-caret-down"></i>
+          <i className="fa fa-caret-down"></i>
         </button>
-        <div class="dropdown-content">
-          <div class="row">
-            <div class="column">
+        <div className="dropdown-content">
+          <div className="row">
+            <div className="column">
               {Data.goneInFlash
                 .filter((e) => {
                   if (e.id < 9) return e;

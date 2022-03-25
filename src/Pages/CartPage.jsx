@@ -1,26 +1,17 @@
 import { Navigate } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
+import CartItem from "../Components/CartItem";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../ContextApi/AuthContext";
+import { CartContext } from "../ContextApi/CartContext";
 import "../Styles/Cart.css";
 
 function Cart() {
   const { token } = useContext(AuthContext);
-  const [totalAmount, setTotalAmount] = useState(0);
-  const [count, setCount] = useState(0);
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:3002/cart")
-      .then((res) => res.json())
-      .then((res) => {
-        return <> {setData(res)} </>;
-      });
-  }, []);
-  console.log(data);
   if (!token) {
     return <Navigate to={"/login"} />;
   }
+  const { total, count, cart } = useContext(CartContext);
 
   return (
     <>
@@ -38,26 +29,17 @@ function Cart() {
               {" "}
               <p>Price</p>
               <p>Count</p>
-              <p>Amount</p>
             </div>
           </div>
-          <div
-            style={{
-              height: "100px",
-              width: "60%",
-              backgroundColor: "white",
-              margin: "auto",
-            }}
-          >
-            {data.map((e) => {
-              return (
-                <>
-                  {e.title},{e.price}
-                </>
-              );
-            })}
+          <div>
             {/* design cart here */}
-            <h1>Cart Items to be Added</h1>
+            {cart.map((e, i) => (
+              <>
+                <div key={i}>
+                  <CartItem value={e} />
+                </div>
+              </>
+            ))}
           </div>
         </div>
 
@@ -71,21 +53,16 @@ function Cart() {
         </div>
         <div className="cartitems">
           <Link to="/">
-            <div>Continue shopping~</div>
+            <div>Continue shopping</div>
           </Link>
           <div className="cartitems1">
             <div>
-              <p>
-                Count : &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
-                &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; {count}
-              </p>{" "}
-              <p>
-                Total : &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; {totalAmount}
-              </p>
+              <p>Count :</p> <p>Total :</p>
             </div>
             <div>
-              <Link to='/checkout'><button>Place Order</button></Link>
+              <Link to="/checkout">
+                <button>Place Order</button>
+              </Link>
             </div>
           </div>
         </div>

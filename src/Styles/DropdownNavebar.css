@@ -14,7 +14,7 @@
   margin: 0;
 }
 
-.navbar a:hover,
+.navbar Link:hover,
 .dropdown:hover .dropbtn {
   background-color: white;
 }
@@ -48,7 +48,7 @@
   margin: auto;
 }
 
-.column a {
+.column Link {
   float: none;
   color: black;
   padding: 0px;
@@ -57,7 +57,7 @@
   text-align: left;
 }
 
-.column a:hover {
+.column Link:hover {
   background-color: #ddd;
 }
 

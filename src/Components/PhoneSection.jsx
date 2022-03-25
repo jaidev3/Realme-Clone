@@ -8,7 +8,7 @@ export const Phones = () => {
         &nbsp;
       </div>
 
-      <div class="flex-container">
+      <div className="flex-container">
         <div>
           <img
             className="imphone"
@@ -72,7 +72,7 @@ export const Phones = () => {
         </div>
       </div>
 
-      <div class="flex-container">
+      <div className="flex-container">
         <div>
           <img
             className="imphone"
@@ -138,7 +138,7 @@ export const Phones = () => {
 
       <div >
         <h2 className="phonetitle">Smart Life</h2>
-        <div class="flex-container">
+        <div className="flex-container">
           <div className="boxflexs">
             <div className="boxfle1">
               <p className="stic">realme Smart TV Stick</p>
@@ -175,7 +175,7 @@ export const Phones = () => {
           </div>
         </div>
 
-        <div class="flex-container">
+        <div className="flex-container">
           <div className="boxflexs">
             <div className="boxfle1">
               <p className="stic">realme Watch 2 Pro</p>
@@ -210,7 +210,7 @@ export const Phones = () => {
           </div>
         </div>
 
-        <div class="flex-container">
+        <div className="flex-container">
           <div>
             <img
               className="imphone"

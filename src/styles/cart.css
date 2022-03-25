@@ -35,7 +35,7 @@
 .cartheader1 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 40%;
 }
 
@@ -88,4 +88,15 @@
 }
 .cartitems1 {
   text-align: left;
+}
+
+.productCart{
+  width: 700px;
+  margin: auto;
+  align-items: center;
+  background-color: #c8b4b4;
+}
+
+button{
+  cursor: pointer;
 }

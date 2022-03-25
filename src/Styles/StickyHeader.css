@@ -9,7 +9,7 @@
 .logo {
   align-self: center;
 }
-.logo a {
+.logo Link {
   color: black;
   text-decoration: none;
 }
@@ -22,7 +22,7 @@ ul {
 li {
   list-style: none;
 }
-li a {
+li Link {
   color: black;
   display: block;
   text-decoration: none;
@@ -44,9 +44,10 @@ section {
   z-index: 1;
   margin: auto;
   height: 60px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.search a {
+.search Link {
   text-decoration: none;
   color: black;
 }

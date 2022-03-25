@@ -15,7 +15,7 @@ function Products() {
     setPageNumber(selected);
   };
   ////////////////////////////////////////////
-
+console.log(data)
   return (
     <div>
       <Div>

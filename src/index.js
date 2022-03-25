@@ -5,6 +5,7 @@ import "antd/dist/antd.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import { AuthContextProvider } from "./ContextApi/AuthContext";
+import { CartContextProvider } from "./ContextApi/CartContext";
 import { Provider } from "react-redux";
 import { store } from "./ReduxStore/store";
 
@@ -13,7 +14,9 @@ ReactDOM.render(
     <Provider store={store}>
       <BrowserRouter>
         <AuthContextProvider>
-          <App />
+          <CartContextProvider>
+            <App />
+          </CartContextProvider>
         </AuthContextProvider>
       </BrowserRouter>
     </Provider>

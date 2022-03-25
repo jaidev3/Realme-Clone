@@ -8,8 +8,8 @@ export default function Realme() {
   return (
     <>
       <div>
-        <Carouse />
         <div style={{ marginBottom: "310px" }}>
+          <Carouse />
           <Product />
         </div>
         <div className="bigbox">
@@ -35,11 +35,9 @@ export default function Realme() {
             alt=""
           />
         </div>
-      
+
         <Phone />
         <Activity />
-      
-       
       </div>
     </>
   );

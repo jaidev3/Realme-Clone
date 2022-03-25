@@ -26,7 +26,8 @@ const Login = () => {
         <h1>realme</h1>{" "}
         <div className="box1">
           <h1 className="signin">Sign in</h1>
-          <span>Sign in with Email: <b>eve.holt@reqres.in</b></span>
+          <span>Sign in with Email: <b>eve.holt@reqres.in</b></span><br/>
+          <span>Password:<b>abcd</b></span>
           <br />
           <br />
           <input  onChange={handleChange}
@@ -72,13 +73,14 @@ const Login = () => {
           </div>
           {/* <img className="imga" src="../images/googl.png" alt="" /> */}
         </div>
-      </div>
-      <br />
+        <br />
       <br />
       <p className="base_footer">
         HeyTap provides account services for realme users
       </p>
       <span className="base_footerr">Copyright © BRAVO UNICORN PTE. LTD</span>
+      </div>
+     
     </div>
   );
 };

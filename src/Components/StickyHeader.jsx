@@ -29,39 +29,39 @@ function Sticky() {
           </div>
           <ul>
             <li>
-              <a href="#">
+              <Link to="/">
                 <MegaMenu title={"Realme Smartphones"} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="/">
                 <MegaMenu title={"Narzo Smartphones"} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="/">
                 <MegaMenu title={"Realme TV"} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="/">
                 <MegaMenu title={"Laptop & Tablet"} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="/">
                 <MegaMenu title={"Audio"} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="/">
                 <MegaMenu title={"Smart Life"} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="/">
                 <MegaMenu title={"Accessories & Lifestyle"} />
-              </a>
+              </Link>
             </li>
           </ul>
           <div className="search">
